@@ -1,0 +1,1073 @@
+
+
+--- PAGINA 1 ---
+
+Uso Interno · Versão 1.0 · Julho 2026 Página 1
+
+--- PAGINA 2 ---
+
+Ficha Técnica
+Campo Como preencher
+Documento Regulamento Interno FAIS – Fatecie AI Solutions
+Código 10.4.1
+Versão V1
+Elaboração Carolaine Custódio, Business Partner de Gente, Cultura e Gestão
+Eline Velasques, Gerente de Gente, Cultura e Gestão
+Revisão técnica Diretoria de Inovação; Diretoria de Tecnologia; Diretoria de
+Planejamento e Processos
+Revisão ortográfica Produção de Materiais
+Aprovação Eline Velasques, Gerente de Gente, Cultura e Gestão
+Renato Valença, Diretor Administrativo
+Data de emissão Julho de 2026
+Data prevista de revisão 1 ano após a publicação
+Classificação Uso Interno
+Aplicação Colaboradores administrativos, colaboradores acadêmicos, gestores,
+professores, estagiários e aprendizes do Grupo Fatecie
+Comissão responsável Comissão Julgadora do FAIS
+Canal de dúvidas rh@fatecie.edu.br | Whatsapp 44 99162-7452
+Histórico de Versões
+Versão
+Data
+Descrição
+Julho 2026
+1.0 Versão inicial do regulamento interno do
+FAIS, elaborada para orientar o programa
+institucional de inovação com soluções
+baseadas em Inteligência Artificial.
+Uso Interno · Versão 1.0 · Julho 2026 Página 2
+
+--- PAGINA 3 ---
+
+01. Apresentação Institucional
+Quem somos
+O Grupo Fatecie e sua missão educacional
+O Grupo Fatecie é uma instituição de ensino superior comprometida com a transformação de
+vidas por meio da educação. Com atuação tanto no ensino presencial quanto na modalidade a
+distância, o Grupo serve estudantes em todo o Brasil, conectando conhecimento, tecnologia e
+desenvolvimento humano.
+Fazem parte do ecossistema Fatecie:
+• UniFatecie – cursos presenciais de graduação e pós-graduação nos campi de Paranavaí.
+• UniFatecie EaD – modalidade a distância com alcance nacional, acessível por dispositivos
+digitais.
+• Inova – programa de desenvolvimento profissional que conecta formação acadêmica ao
+mercado de trabalho.
+• Labteci – laboratório de inovação, tecnologia e pesquisa aplicada.
+• Fatecie Max – escola básica de ensino, que oferece educação desde o ensino infantil ao 9º
+ano.
+• Fatecie Premium – colégio de ensino médio.
+Missão Promover educação transformadora, inclusiva e de
+qualidade, contribuindo para o desenvolvimento
+humano e para a construção de uma sociedade
+mais justa, ética e igualitária.
+Visão Ser reconhecida como um Grupo Educacional de
+excelência, consolidado no ensino nos seus
+diversos níveis e modalidades.
+Valores Comprometimento · Hospitalidade · Inovação ·
+Respeito · Responsabilidade Social ·
+Sustentabilidade · Transparência · Inclusão
+É dentro desse contexto que as políticas institucionais ganham sentido. Elas não são
+documentos burocráticos. São a tradução prática dos nossos valores em regras claras, justas e
+aplicáveis para todos os colaboradores que fazem o Grupo Fatecie.
+Uso Interno · Versão 1.0 · Julho 2026 Página 3
+
+--- PAGINA 4 ---
+
+02. Carta da Gerência de Gente, Cultura e Gestão
+Uma palavra de Eline Velasques — Gerência de Gente, Cultura e Gestão
+Paranavaí, julho de 2026.
+A todos os colaboradores do Grupo Fatecie,
+Vivemos um momento em que a tecnologia, a inovação e a Inteligência Artificial estão
+transformando a forma como trabalhamos, aprendemos, ensinamos, atendemos e gerimos nossos
+processos. No Grupo Fatecie, acreditamos que essa transformação deve acontecer de forma
+responsável, colaborativa e conectada aos desafios reais da nossa instituição.
+O FAIS – Fatecie AI Solutions nasce com esse propósito: incentivar nossos colaboradores,
+professores, gestores, estagiários e aprendizes a observarem suas rotinas, identificarem
+oportunidades de melhoria e transformarem ideias em soluções práticas, capazes de gerar
+impacto para as pessoas, para os processos e para a gestão institucional.
+Este regulamento não tem como finalidade limitar a criatividade ou burocratizar a inovação. Pelo
+contrário, ele existe para orientar, dar clareza, garantir critérios justos de participação e avaliação,
+proteger as informações institucionais e assegurar que o uso da Inteligência Artificial aconteça de
+forma ética, segura e alinhada aos valores do Grupo Fatecie.
+Sabemos que muitas soluções importantes nascem da prática, da escuta, da curiosidade e da
+vontade de melhorar aquilo que fazemos todos os dias. Por isso, o FAIS também é uma forma de
+reconhecer o protagonismo das pessoas que constroem o Grupo Fatecie e que contribuem para
+uma instituição mais eficiente, inovadora e preparada para o futuro.
+Leia este documento com atenção. Em caso de dúvidas sobre participação, cadastro,
+elegibilidade, avaliação ou situações não previstas, procure a área de Gente, Cultura e Gestão
+para receber a orientação necessária.
+Com respeito e comprometimento,
+Eline Velasques
+Gerência de Gente, Cultura e Gestão — Grupo Fatecie
+Uso Interno · Versão 1.0 · Julho 2026 Página 4
+
+--- PAGINA 5 ---
+
+03. Introdução
+Este regulamento estabelece as diretrizes gerais do FAIS – Fatecie AI Solutions, programa
+institucional de inovação do Grupo Fatecie voltado ao desenvolvimento, cadastro,
+compartilhamento, avaliação e reconhecimento de soluções baseadas em Inteligência Artificial.
+O FAIS existe porque o Grupo Fatecie acredita que a inovação deve estar conectada aos desafios
+reais da instituição. A Inteligência Artificial, quando utilizada de forma responsável, ética e
+alinhada às necessidades institucionais, pode apoiar a melhoria de processos, a produtividade das
+equipes, a experiência dos alunos, a tomada de decisão e a transformação da rotina de trabalho.
+Mais do que reconhecer boas ideias, o FAIS busca incentivar colaboradores, professores,
+gestores, estagiários e aprendizes a transformar desafios do dia a dia em soluções práticas,
+aplicáveis e capazes de gerar impacto real para as pessoas, para os processos e para a gestão
+institucional.
+O programa também tem como objetivo estimular o compartilhamento de conhecimento entre
+áreas, favorecendo que soluções desenvolvidas internamente possam ser conhecidas,
+aprimoradas, replicadas e, quando aplicável, incorporadas aos processos institucionais do Grupo
+Fatecie.
+O que este regulamento contempla
+• A definição do FAIS – Fatecie AI Solutions e seus objetivos institucionais.
+• Os públicos que podem participar do programa.
+• Os tipos de iniciativas que poderão ser cadastradas.
+• Os requisitos mínimos para submissão das iniciativas.
+• O funcionamento do programa, incluindo cadastro, atualização, curadoria, avaliação e
+divulgação dos resultados.
+• Os critérios de avaliação das iniciativas.
+• A metodologia de pontuação baseada no ICE Score.
+• As hipóteses de desclassificação.
+• As regras de premiação e reconhecimento.
+• As diretrizes para compartilhamento e possível institucionalização das soluções.
+• A composição e as responsabilidades da Curadoria Técnica e da Comissão Julgadora.
+• O calendário oficial da 1ª edição do FAIS – Ciclo 2027
+O que este regulamento NÃO contempla
+• Contratação automática, promoção, alteração salarial ou mudança de cargo em razão da
+participação no programa.
+• Garantia de implementação institucional de todas as soluções cadastradas.
+• Substituição dos fluxos formais de aprovação de projetos, sistemas, ferramentas,
+contratos, compras ou integrações tecnológicas.
+• Autorização para uso inadequado de dados pessoais, dados sensíveis, informações
+confidenciais ou documentos institucionais.
+• Dispensa do cumprimento das políticas internas de segurança da informação, LGPD,
+conduta, propriedade intelectual, tecnologia e demais normas institucionais aplicáveis.
+• Validação técnica definitiva de soluções que dependam de integração, implantação
+sistêmica, contratação de ferramentas ou uso institucional em larga escala.
+• Premiação automática para todas as iniciativas cadastradas.
+Uso Interno · Versão 1.0 · Julho 2026 Página 5
+
+--- PAGINA 6 ---
+
+Conexão com os valores do Grupo Fatecie:
+Este regulamento expressa os valores de Comprometimento, Inovação, Transparência,
+Responsabilidade Social, Sustentabilidade, Respeito e Inclusão. O FAIS representa uma iniciativa
+institucional voltada à construção de uma cultura de inovação prática, colaborativa e responsável. Ao
+incentivar o uso de Inteligência Artificial para resolver problemas reais, o Grupo Fatecie fortalece sua
+capacidade de adaptação, desenvolvimento e melhoria contínua.
+03.1 Contexto
+Contexto Legal
+Leis, normas e diretrizes que orientam o FAIS
+Entre as principais referências aplicáveis ao programa, destacam-se:
+• Lei de Direitos Autorais — Lei nº 9.610/1998: orienta o uso adequado de textos, imagens,
+vídeos, códigos, materiais didáticos, documentos, apresentações, conteúdos digitais e
+demais obras intelectuais utilizadas ou geradas nas iniciativas cadastradas no FAIS.
+• Lei de Propriedade Industrial — Lei nº 9.279/1996: orienta a proteção de criações, marcas,
+soluções técnicas, invenções, modelos de utilidade e demais ativos de propriedade
+industrial que possam decorrer do desenvolvimento de soluções inovadoras.
+• Marco Civil da Internet — Lei nº 12.965/2014: estabelece princípios, direitos e deveres
+relacionados ao uso da internet no Brasil, especialmente em relação à segurança,
+privacidade, responsabilidade e uso adequado de ambientes digitais.
+• LGPD — Lei nº 13.709/2018: deverá ser observada sempre que a iniciativa envolver dados
+pessoais de colaboradores, alunos, candidatos, leads, fornecedores, parceiros ou
+quaisquer outros titulares de dados relacionados ao Grupo Fatecie.
+• Normas internas do Grupo Fatecie: incluindo diretrizes de conduta, segurança da
+informação, confidencialidade, uso de sistemas, proteção de dados, propriedade
+intelectual, tecnologia, comunicação institucional e demais regras aplicáveis.
+Contexto Organizacional
+A realidade interna que torna o FAIS necessário
+O Grupo Fatecie conta com diferentes áreas acadêmicas, administrativas, comerciais, financeiras,
+tecnológicas, operacionais e de atendimento, que atuam diariamente com grande volume de
+processos, informações, documentos, análises, indicadores, comunicações e demandas
+recorrentes.
+Nesse cenário, a Inteligência Artificial surge como uma oportunidade para apoiar a eficiência
+institucional, reduzir retrabalhos, otimizar recursos, qualificar decisões, automatizar atividades
+repetitivas, ampliar a capacidade analítica das equipes e melhorar a experiência de
+colaboradores, alunos e demais públicos atendidos pela instituição.
+Diversas áreas já utilizam ou demonstram interesse em utilizar soluções baseadas em Inteligência
+Artificial para apoiar suas rotinas. A criação do FAIS busca organizar, estimular e dar visibilidade a
+essas iniciativas, permitindo que boas práticas sejam reconhecidas, aprimoradas, avaliadas e
+compartilhadas de forma institucional.
+Uso Interno · Versão 1.0 · Julho 2026 Página 6
+
+--- PAGINA 7 ---
+
+A inexistência de um programa institucional específico para cadastro, curadoria, avaliação e
+reconhecimento dessas soluções poderia gerar iniciativas isoladas, pouca visibilidade sobre boas
+práticas, dificuldade de replicação entre áreas e ausência de critérios comuns para avaliação de
+impacto, segurança, viabilidade e uso responsável da Inteligência Artificial.
+O FAIS busca organizar esse movimento de inovação, reduzir barreiras para o compartilhamento
+de soluções, fortalecer a cultura de melhoria contínua e identificar iniciativas com potencial de
+gerar impacto real para a instituição.
+Princípios Norteadores
+Os valores que guiam as escolhas deste regulamento
+Os valores que guiam as escolhas deste regulamento
+Inovação com propósito: as soluções devem estar conectadas a desafios reais da instituição e
+contribuir para melhorias concretas em processos, serviços, experiências ou resultados.
+Uso responsável da Inteligência Artificial: as iniciativas devem respeitar critérios éticos, legais,
+técnicos e institucionais, especialmente em relação à proteção de dados, segurança da
+informação, confidencialidade e direitos autorais.
+Impacto institucional: as soluções devem demonstrar potencial de gerar benefícios para
+colaboradores, alunos, áreas, processos ou para a gestão institucional.
+Colaboração e compartilhamento: o FAIS valoriza o conhecimento produzido internamente e
+incentiva que boas práticas possam ser compartilhadas, aprimoradas e, quando aplicável,
+replicadas em outras áreas.
+Transparência na avaliação: as iniciativas serão avaliadas com base em critérios previamente
+definidos, considerando impacto, confiança, facilidade de implementação, inovação, qualidade da
+solução e aderência institucional.
+Protagonismo dos colaboradores: o programa reconhece o papel das pessoas na
+transformação institucional, valorizando quem identifica problemas, propõe soluções e contribui
+para uma instituição mais eficiente, inovadora e preparada para o futuro.
+Melhoria contínua: o FAIS busca incentivar a evolução constante das soluções cadastradas,
+permitindo que os autores atualizem suas iniciativas, incluam evidências, registrem resultados e
+aprimorem suas entregas ao longo do ciclo.
+03.2 Abrangência
+Este regulamento se aplica aos participantes do FAIS – Fatecie AI Solutions – 1ª Edição – Ciclo
+2027, no âmbito do Grupo Fatecie.
+Poderão participar do programa:
+Públicos abrangidos pelo regulamento
+Público Abrangência
+Uso Interno · Versão 1.0 · Julho 2026 Página 7
+
+--- PAGINA 8 ---
+
+Colaboradores administrativos Colaboradores de áreas administrativas, operacionais, de
+atendimento, suporte, tecnologia, financeiro, comercial,
+comunicação, Gente, Cultura e Gestão e áreas
+correlatas.
+Colaboradores acadêmicos Colaboradores que atuam em áreas acadêmicas,
+pedagógicas, secretaria, serviços acadêmicos, núcleos,
+coordenações e áreas de apoio ao ensino.
+Gestores Lideranças, supervisores, coordenadores, gerentes e
+demais profissionais com responsabilidade de gestão de
+equipes, áreas ou processos.
+Professores Docentes vinculados ao Grupo Fatecie que desenvolvam
+ou participem de iniciativas relacionadas às atividades
+acadêmicas, pedagógicas, administrativas ou
+institucionais.
+Estagiários Estagiários vinculados ao Grupo Fatecie, desde que a
+iniciativa esteja relacionada às atividades institucionais e
+conte com ciência da liderança responsável, quando
+aplicável.
+Aprendizes Aprendizes vinculados ao Grupo Fatecie, desde que a
+iniciativa esteja relacionada às atividades institucionais e
+conte com ciência da liderança responsável, quando
+aplicável.
+Quem está fora do escopo deste regulamento
+Grupo Observação
+Terceiros sem vínculo institucional Poderão participar apenas se houver
+autorização formal do Grupo Fatecie e relação
+direta com iniciativa institucional, parceria ou
+projeto previamente aprovado.
+Fornecedores externos Não participam da premiação como autores,
+salvo regra específica definida pelo Comitê do
+Programa em projetos institucionais
+autorizados.
+Soluções sem relação institucional Iniciativas que não possuam conexão com as
+atividades, processos, serviços ou objetivos
+do Grupo Fatecie não serão consideradas
+elegíveis.
+Dica: A participação no FAIS implica na concordância com este regulamento e com as demais normas institucionais
+aplicáveis, especialmente aquelas relacionadas à segurança da informação, proteção de dados, confidencialidade, conduta
+ética, direitos autorais e uso responsável da Inteligência Artificial.Dúvidas sobre enquadramento, elegibilidade ou critérios
+de participação deverão ser encaminhadas à Gerência de Gente, Cultura e Gestão ou ao Comitê do Programa antes do
+cadastro da iniciativa.
+Uso Interno · Versão 1.0 · Julho 2026 Página 8
+
+--- PAGINA 9 ---
+
+Uso Interno · Versão 1.0 · Julho 2026 Página 9
+
+--- PAGINA 10 ---
+
+04. Sobre o FAIS – Fatecie AI Solutions
+Esta seção apresenta o FAIS – Fatecie AI Solutions, sua finalidade institucional, seus objetivos e a
+forma como o programa contribui para o fortalecimento da cultura de inovação no Grupo Fatecie.
+O FAIS é um programa institucional de inovação voltado ao desenvolvimento, cadastro,
+compartilhamento, avaliação e reconhecimento de soluções baseadas em Inteligência Artificial,
+criadas por colaboradores, professores, gestores, estagiários e aprendizes.
+Seu objetivo é incentivar a transformação de desafios do dia a dia em soluções práticas,
+aplicáveis e capazes de gerar impacto real para colaboradores, alunos, áreas, processos e para a
+gestão institucional.
+Mais do que reconhecer boas ideias, o FAIS busca identificar iniciativas com potencial de
+melhoria, replicação e institucionalização, estimulando o protagonismo das pessoas e o uso
+responsável da Inteligência Artificial.
+Uso Interno · Versão 1.0 · Julho 2026 Página 10
+
+--- PAGINA 11 ---
+
+05. Participação no Programa
+A participação no FAIS – Fatecie AI Solutions é aberta aos públicos definidos neste regulamento,
+com o objetivo de incentivar o protagonismo, a colaboração e o desenvolvimento de soluções
+baseadas em Inteligência Artificial no âmbito do Grupo Fatecie.
+O programa busca valorizar iniciativas que nasçam da observação dos desafios reais da rotina
+institucional e que possam contribuir para a melhoria de processos, serviços, experiências,
+análises, atendimentos, produtividade, tomada de decisão ou gestão.
+A participação no FAIS é voluntária e deverá observar as regras, prazos, critérios de elegibilidade,
+condições de cadastro, avaliação e premiação previstos neste regulamento.
+05.1 Quem pode participar
+Poderão participar do FAIS:
+● colaboradores administrativos;
+● colaboradores acadêmicos;
+● gestores;
+● professores;
+● estagiários;
+● aprendizes.
+A participação está condicionada à existência de vínculo institucional com o Grupo Fatecie
+durante o período de inscrição e avaliação da iniciativa.
+No caso de estagiários e aprendizes, recomenda-se que a participação esteja alinhada com a
+liderança responsável, especialmente quando a iniciativa envolver processos da área, uso de
+informações internas, documentos, sistemas ou atividades institucionais.
+05.2 Formas de participação
+As iniciativas poderão ser cadastradas de forma:
+● individual, quando desenvolvidas por um único autor;
+● em equipe, quando desenvolvidas por dois ou mais participantes.
+Cada iniciativa deverá indicar corretamente todos os autores envolvidos no
+desenvolvimento da solução, considerando a participação efetiva de cada integrante
+na construção, teste, documentação, aplicação ou melhoria da iniciativa.
+A inclusão de autores que não tenham contribuído diretamente para a solução poderá
+ser analisada pelo Comitê do Programa, especialmente em casos de dúvida,
+contestação ou necessidade de validação da autoria.
+05.3 Quantidade de iniciativas por participante
+Cada participante poderá cadastrar quantas iniciativas desejar, desde que cada uma delas
+atenda aos requisitos mínimos de submissão previstos neste regulamento.
+O cadastro de múltiplas iniciativas não garante classificação, premiação ou prioridade de
+avaliação. Cada solução será analisada individualmente, com base em seus próprios critérios
+de impacto, inovação, viabilidade, evidências e uso responsável da Inteligência Artificial.
+05.4 Participação em equipe
+Nas iniciativas desenvolvidas em equipe, todos os autores cadastrados serão
+considerados corresponsáveis pela solução apresentada.
+A equipe deverá definir, no momento do cadastro, um responsável principal pela
+iniciativa, que atuará como ponto de contato para eventuais dúvidas, solicitações de
+Uso Interno · Versão 1.0 · Julho 2026 Página 11
+
+--- PAGINA 12 ---
+
+complementação, comunicações do programa ou orientações da Curadoria Técnica e
+da Comissão Julgadora.
+A definição de um responsável principal não elimina o reconhecimento dos demais
+autores, desde que estejam corretamente indicados no cadastro da iniciativa.
+05.5 Responsabilidades dos participantes
+Ao participar do FAIS, os autores assumem a responsabilidade pelas informações apresentadas
+no cadastro da iniciativa, bem como pelos materiais, evidências, imagens, vídeos, documentos,
+resultados e demais conteúdos anexados à plataforma.
+São responsabilidades dos participantes:
+● cadastrar informações verdadeiras, completas e coerentes sobre a iniciativa;
+● descrever de forma clara o problema que a solução pretende resolver;
+● indicar as ferramentas de Inteligência Artificial utilizadas;
+● apresentar os benefícios esperados ou alcançados;
+● anexar evidências que demonstrem o funcionamento ou os resultados da solução, quando
+disponíveis;
+● respeitar as normas internas do Grupo Fatecie;
+● preservar informações confidenciais, dados pessoais, dados sensíveis e documentos
+institucionais;
+● observar direitos autorais, propriedade intelectual e uso adequado de conteúdos de
+terceiros;
+● utilizar a Inteligência Artificial de forma ética, segura e responsável.
+05.6 Ciência da liderança
+A participação no FAIS não exige autorização prévia da liderança para o cadastro de iniciativas de
+caráter geral, desde que a solução não envolva uso de dados restritos, informações confidenciais,
+acessos sistêmicos, integrações, custos, alterações de processos oficiais ou impactos diretos em
+outras áreas.
+Quando a iniciativa envolver processos internos da área, informações institucionais, documentos,
+bases de dados, atendimento a alunos, fluxos acadêmicos, rotinas administrativas, sistemas ou
+qualquer atividade sensível, recomenda-se que o participante comunique previamente sua
+liderança imediata.
+A ciência da liderança não significa aprovação automática da iniciativa, nem garante classificação,
+premiação ou institucionalização da solução.
+05.7 Participação de gestores
+Gestores poderão participar do FAIS como autores ou coautores de iniciativas, desde que estejam
+diretamente envolvidos no desenvolvimento, aplicação, teste, orientação ou melhoria da solução
+apresentada.
+Quando a iniciativa for desenvolvida por uma equipe liderada por um gestor, recomenda-se que a
+autoria seja atribuída de forma justa, considerando a contribuição efetiva de cada participante.
+O FAIS valoriza o protagonismo técnico, operacional, acadêmico e criativo dos colaboradores,
+independentemente do cargo ocupado.
+05.8 Participação durante o expediente
+O desenvolvimento das iniciativas deverá respeitar a rotina de trabalho, as prioridades da área e
+as orientações da liderança.
+Quando a construção, teste ou documentação da iniciativa demandar tempo significativo durante a
+jornada de trabalho, o participante deverá alinhar previamente com sua liderança imediata, a fim
+de garantir que as atividades regulares da área não sejam prejudicadas.
+O FAIS não substitui as responsabilidades funcionais do participante, nem autoriza a interrupção
+de atividades, prazos ou entregas da área sem alinhamento prévio.
+05.9 Condições para permanência no programa
+Uso Interno · Versão 1.0 · Julho 2026 Página 12
+
+--- PAGINA 13 ---
+
+Para permanecer no FAIS, a iniciativa deverá manter relação com as atividades institucionais do
+Grupo Fatecie e observar os critérios previstos neste regulamento.
+Poderão ser removidas da plataforma ou desconsideradas da avaliação iniciativas que
+apresentem informações inconsistentes, incompletas, falsas, ofensivas, discriminatórias,
+incompatíveis com os valores institucionais ou em desacordo com as normas internas, legislação
+vigente, segurança da informação, direitos autorais, proteção de dados ou uso responsável da
+Inteligência Artificial.
+06. Iniciativas Elegíveis
+Serão consideradas elegíveis ao FAIS – Fatecie AI Solutions as iniciativas que utilizem
+Inteligência Artificial para propor, desenvolver, testar ou aplicar soluções voltadas à melhoria de
+processos, serviços, experiências, análises, atendimentos, fluxos de trabalho ou tomadas de
+decisão no âmbito do Grupo Fatecie.
+As iniciativas deverão apresentar relação direta com atividades institucionais e demonstrar
+potencial de contribuição para a eficiência, inovação, qualidade, produtividade, experiência do
+usuário ou melhoria contínua das áreas.
+06.1 Tipos de iniciativas que podem ser cadastradas
+Poderão ser cadastradas soluções baseadas em Inteligência Artificial, incluindo, mas não se
+limitando a:
+● automações de processos;
+● assistentes virtuais;
+● agentes de Inteligência Artificial;
+● dashboards inteligentes;
+● soluções para análise de documentos;
+● ferramentas de apoio ao atendimento;
+● geração ou apoio à produção de conteúdos;
+● análise de dados e indicadores;
+● soluções de apoio à tomada de decisão;
+● melhorias em processos acadêmicos;
+● melhorias em processos administrativos;
+● soluções para redução de retrabalho;
+● ferramentas de apoio à comunicação, organização ou gestão de demandas.
+As iniciativas poderão estar em diferentes níveis de maturidade, desde protótipos funcionais até
+soluções já testadas ou aplicadas em alguma área, desde que apresentem documentação mínima
+que permita sua análise.
+06.2 Áreas de aplicação
+As soluções poderão estar relacionadas a diferentes frentes institucionais, tais como:
+● processos administrativos;
+● processos acadêmicos;
+● atendimento a alunos, candidatos ou colaboradores;
+● gestão de documentos;
+● análise de indicadores;
+● comunicação institucional;
+● gestão de pessoas;
+● financeiro;
+● comercial;
+● tecnologia;
+● planejamento e processos;
+● experiência e sucesso do aluno;
+Uso Interno · Versão 1.0 · Julho 2026 Página 13
+
+--- PAGINA 14 ---
+
+● produção de materiais;
+● apoio pedagógico;
+● rotinas operacionais;
+● demais atividades relacionadas ao funcionamento do Grupo Fatecie.
+A iniciativa não precisa estar limitada à área de atuação do autor, desde que tenha relação com
+atividades institucionais e respeite as regras de acesso, confidencialidade, segurança da
+informação e autorização para uso de dados, sistemas ou documentos.
+06.3 Requisitos mínimos da iniciativa
+Para ser cadastrada no FAIS, a iniciativa deverá apresentar, no mínimo:
+● título da solução;
+● descrição clara da iniciativa;
+● problema ou oportunidade que pretende resolver;
+● público, área ou processo beneficiado;
+● benefícios esperados ou já alcançados;
+● ferramentas de Inteligência Artificial utilizadas;
+● estágio atual da solução;
+● evidências de funcionamento, quando disponíveis;
+● imagens, vídeos, prints, fluxos, documentos ou outros materiais que ajudem a demonstrar
+a aplicação da iniciativa.
+Quanto mais completa for a documentação apresentada, maiores serão as condições de análise
+pela Curadoria Técnica e pela Comissão Julgadora.
+06.4 Evidências recomendadas
+Sempre que possível, recomenda-se que a iniciativa apresente evidências que demonstrem seu
+funcionamento, aplicação ou resultado.
+Podem ser consideradas evidências:
+● prints de tela;
+● vídeos demonstrativos;
+● fluxos do processo antes e depois da solução;
+● documentos explicativos;
+● protótipos;
+● links de demonstração;
+● indicadores de resultado;
+● relatos de aplicação;
+● comparativos de tempo, custo, produtividade ou qualidade;
+● registros de testes realizados;
+● exemplos de uso da solução.
+As evidências deverão respeitar as normas internas do Grupo Fatecie, especialmente quanto à
+confidencialidade, segurança da informação, proteção de dados, direitos autorais e uso adequado
+de informações institucionais.
+06.5 Indicadores de resultado
+As iniciativas que já tiverem sido testadas ou aplicadas poderão apresentar indicadores que
+demonstrem os resultados obtidos ou esperados.
+Exemplos de indicadores:
+● redução de tempo;
+● economia de recursos;
+● aumento da produtividade;
+● redução de retrabalho;
+Uso Interno · Versão 1.0 · Julho 2026 Página 14
+
+--- PAGINA 15 ---
+
+● redução de erros;
+● melhoria da qualidade;
+● melhoria da experiência do usuário;
+● aumento da agilidade no atendimento;
+● otimização de fluxos;
+● melhoria na organização de informações;
+● apoio à tomada de decisão.
+A ausência de indicadores não impede o cadastro da iniciativa, mas poderá impactar a análise de
+confiança, impacto e maturidade da solução.
+06.6 Soluções em fase de ideia, teste ou implementação
+O FAIS poderá receber iniciativas em diferentes estágios de desenvolvimento, desde que estejam
+suficientemente descritas para avaliação.
+As iniciativas poderão ser classificadas, conforme sua maturidade, como:
+Estágio da iniciativa Descrição
+Ideia estruturada Proposta ainda não implementada, mas com
+problema, solução, público beneficiado e forma de
+aplicação claramente descritos.
+Protótipo Solução em fase inicial, com demonstração parcial
+de funcionamento ou simulação de uso.
+Teste aplicado Solução já testada em alguma rotina, área,
+processo ou demanda institucional.
+Solução em uso Solução já utilizada de forma recorrente ou
+incorporada parcialmente à rotina de uma área.
+Solução escalável Solução com potencial de replicação, adaptação
+ou institucionalização em outras áreas do Grupo
+Fatecie.
+A classificação do estágio da iniciativa poderá apoiar a análise da Curadoria Técnica e da Comissão
+Julgadora, sem garantir aprovação, classificação ou premiação.
+06.7 Iniciativas não elegíveis
+Não serão consideradas elegíveis as iniciativas que:
+● não possuam relação com as atividades institucionais do Grupo Fatecie;
+● não utilizem Inteligência Artificial ou tecnologia correlata em sua proposta;
+● apresentem informações falsas, inconsistentes ou não verificáveis;
+● utilizem dados pessoais, dados sensíveis ou informações confidenciais de forma
+inadequada;
+● violem a legislação vigente, a LGPD, direitos autorais, propriedade intelectual ou normas
+internas;
+● utilizem materiais, documentos, imagens, vídeos, bases de dados ou conteúdos de
+terceiros sem autorização;
+● apresentem conteúdo ofensivo, discriminatório, inadequado ou incompatível com os
+valores institucionais;
+● exponham alunos, colaboradores, candidatos, fornecedores ou terceiros sem autorização;
+● dependam de acessos, integrações, sistemas ou bases restritas sem ciência ou
+autorização da área responsável;
+Uso Interno · Versão 1.0 · Julho 2026 Página 15
+
+--- PAGINA 16 ---
+
+● representem risco à segurança da informação, à integridade dos dados ou à imagem
+institucional.
+A Curadoria Técnica poderá solicitar esclarecimentos, ajustes ou complementações antes de considerar
+uma iniciativa inelegível, quando entender que a inconsistência pode ser corrigida.
+Uso Interno · Versão 1.0 · Julho 2026 Página 16
+
+--- PAGINA 17 ---
+
+07. Funcionamento do Programa
+O FAIS – Fatecie AI Solutions será realizado em ciclos, conforme calendário oficial definido para
+cada edição.
+Durante o ciclo, os participantes poderão cadastrar suas iniciativas, atualizar informações, incluir
+evidências, registrar melhorias e acompanhar as etapas do programa, conforme as orientações
+divulgadas pelo Grupo Fatecie.
+O funcionamento do FAIS está organizado em etapas, desde a inscrição das iniciativas até a avaliação final e a cerimônia de reconhecimento.
+07.1 Cadastro das iniciativas
+As iniciativas deverão ser cadastradas na plataforma oficial do FAIS, dentro do período de
+inscrições definido no calendário do ciclo.
+No momento do cadastro, deverão ser informadas as informações mínimas exigidas para análise
+da iniciativa, conforme previsto neste regulamento.
+O preenchimento correto e completo das informações é de responsabilidade dos autores da
+iniciativa.
+07.2 Disponibilização para consulta
+Após o cadastro, as iniciativas poderão permanecer disponíveis para consulta interna pelos
+colaboradores do Grupo Fatecie durante, no mínimo, 90 dias, ou pelo período que o Comitê do
+Programa considerar necessário.
+A disponibilização das iniciativas tem como objetivo estimular o compartilhamento de
+conhecimento, a visibilidade das soluções e a troca de boas práticas entre áreas.
+A consulta interna não significa aprovação automática da iniciativa, nem garante sua classificação,
+premiação ou institucionalização.
+07.3 Atualização das iniciativas
+Durante o período previsto no calendário, os autores poderão atualizar suas iniciativas, incluindo
+melhorias, ajustes, novas evidências, materiais complementares e resultados obtidos.
+As atualizações poderão ser consideradas na análise da Curadoria Técnica e da Comissão
+Julgadora, desde que realizadas dentro dos prazos definidos para o ciclo.
+Após o encerramento do período de atualização, alterações adicionais poderão ser
+desconsideradas para fins de avaliação, salvo decisão do Comitê do Programa.
+07.4 Curadoria Técnica
+Uso Interno · Versão 1.0 · Julho 2026 Página 17
+
+--- PAGINA 18 ---
+
+Encerrado o período de cadastro e atualização, as iniciativas serão analisadas pela Curadoria
+Técnica.
+A Curadoria Técnica terá como objetivo verificar se a iniciativa:
+● está completa;
+● atende aos requisitos mínimos;
+● possui relação com as atividades institucionais;
+● apresenta evidências ou descrição suficiente para análise;
+● demonstra uso de Inteligência Artificial;
+● respeita os critérios de segurança, responsabilidade e conformidade previstos neste
+regulamento.
+A Curadoria Técnica poderá solicitar esclarecimentos ou complementações aos autores, quando
+necessário. As iniciativas que atenderem aos critérios mínimos poderão seguir para a etapa de
+avaliação da Comissão Julgadora.
+07.5 Comissão Julgadora
+A Comissão Julgadora receberá as iniciativas classificadas pela Curadoria Técnica para avaliação
+estratégica.
+Essa etapa terá como objetivo analisar o impacto, a inovação, a viabilidade, a qualidade da
+implementação, o potencial de uso em outras áreas e o uso responsável da Inteligência Artificial.
+A Comissão Julgadora poderá definir as iniciativas finalistas e as premiadas, conforme os critérios
+estabelecidos neste regulamento.
+07.6 Divulgação dos finalistas
+As iniciativas finalistas serão divulgadas conforme calendário oficial do ciclo.
+A divulgação poderá ocorrer por meio dos canais institucionais do Grupo Fatecie, com o objetivo
+de reconhecer os autores, valorizar as soluções desenvolvidas e estimular a cultura de inovação.
+A classificação como finalista não garante premiação financeira, institucionalização da solução ou
+implementação em larga escala.
+07.7 Cerimônia de reconhecimento
+Ao final do ciclo, será realizada a cerimônia de reconhecimento do FAIS, destinada à valorização
+das iniciativas de maior destaque.
+A cerimônia poderá contemplar a divulgação das iniciativas premiadas, entrega de certificados,
+troféus, premiações e demais formas de reconhecimento definidas pelo Grupo Fatecie.
+07.8 Calendário oficial do ciclo
+O calendário do FAIS – 1ª Edição – Ciclo 2027 será organizado conforme as seguintes etapas:
+Etapa Período/Data
+Lançamento do programa 15/07/2026
+Período de inscrições 20/07/2026 a 30/09/2026
+Período de atualização das iniciativas 01/10/2026 a 20/10/2026
+Uso Interno · Versão 1.0 · Julho 2026 Página 18
+
+--- PAGINA 19 ---
+
+Avaliação do Comitê 21/10/2026 a 06/11/2026
+Divulgação dos finalistas 10/11/2026
+Cerimônia de reconhecimento 11/12/2026
+O calendário poderá ser ajustado pelo Comitê do Programa, caso haja necessidade institucional,
+alteração operacional ou adequação das etapas de avaliação.
+Uso Interno · Versão 1.0 · Julho 2026 Página 19
+
+--- PAGINA 20 ---
+
+08. Avaliação das Iniciativas
+As iniciativas classificadas pela Curadoria Técnica serão avaliadas pela Comissão Julgadora,
+conforme os critérios definidos neste regulamento.
+A avaliação terá como objetivo identificar as soluções com maior potencial de impacto
+institucional, considerando sua relevância, aplicabilidade, inovação, qualidade de implementação,
+evidências apresentadas e uso responsável da Inteligência Artificial.
+A análise das iniciativas não se limitará à complexidade tecnológica da solução. Também serão
+considerados o problema resolvido, a clareza da proposta, os benefícios gerados ou esperados e
+a possibilidade de utilização em outras áreas do Grupo Fatecie.
+08.1 Critérios de avaliação
+A avaliação das iniciativas considerará, principalmente:
+• o problema ou oportunidade que a solução pretende resolver;
+• o impacto gerado ou esperado para a instituição;
+• a inovação da proposta;
+• a qualidade da implementação;
+• a clareza da documentação apresentada;
+• as evidências de funcionamento ou resultados;
+• o potencial de replicação ou adaptação para outras áreas;
+• a facilidade de implementação e manutenção;
+• a viabilidade técnica, operacional e institucional;
+• o uso responsável da Inteligência Artificial;
+• a aderência às normas internas, segurança da informação, confidencialidade e proteção de
+dados.
+08.2 Indicadores de resultado
+Sempre que possível, os autores deverão apresentar indicadores que demonstrem os resultados
+obtidos ou esperados com a iniciativa.
+Poderão ser considerados indicadores como:
+• redução de tempo;
+• economia de recursos;
+• aumento da produtividade;
+• melhoria da experiência do usuário;
+• redução de erros;
+• redução de retrabalho;
+• aumento da qualidade;
+• melhoria na organização de informações;
+• ganho de agilidade.
+Uso Interno · Versão 1.0 · Julho 2026 Página 20
+
+--- PAGINA 21 ---
+
+A apresentação de indicadores fortalece a avaliação da iniciativa, especialmente nos critérios de
+impacto, confiança e viabilidade.
+A ausência de indicadores não impede a avaliação da solução, desde que a iniciativa apresente
+descrição clara, evidências mínimas e potencial de contribuição institucional.
+08.3 Metodologia de avaliação — ICE Score
+As iniciativas serão pontuadas com base na metodologia ICE Score, que avalia cada solução a
+partir de três eixos principais:
+Eixo O que avalia
+Impacto O quanto a solução contribui para os resultados da
+instituição, como ganho de produtividade,
+economia de recursos, melhoria da experiência,
+redução de erros, qualidade das entregas ou
+otimização de processos.
+Confiança O grau de segurança de que os resultados
+apresentados ou previstos realmente poderão
+ocorrer, considerando evidências, testes,
+indicadores, clareza da documentação e
+consistência da proposta.
+Facilidade A facilidade de implementar, manter, adaptar ou
+escalar a solução dentro da instituição,
+considerando esforço, complexidade, dependência
+técnica, custo, integração e capacidade de uso por
+outras áreas.
+Cada eixo receberá uma nota de 1 a 10. O ICE Score final será calculado pela média das notas
+atribuídas aos três eixos. Quanto maior o resultado, maior será a prioridade, maturidade e
+potencial da iniciativa dentro do programa.
+08.4 Escala de pontuação
+A Comissão Julgadora poderá utilizar a seguinte referência para atribuição das notas:
+Nota Interpretação
+1 a 3 Baixo potencial, baixa clareza, pouca evidência ou
+baixa aderência aos objetivos do programa.
+4 a 6 Potencial moderado, com necessidade de ajustes,
+complementação de evidências ou maior clareza
+sobre impacto e viabilidade.
+7 a 8 Bom potencial, com proposta consistente,
+aplicabilidade clara e evidências relevantes.
+9 a 10 Alto potencial, com impacto significativo, boa
+documentação, viabilidade demonstrada e
+possibilidade de replicação ou institucionalização.
+Uso Interno · Versão 1.0 · Julho 2026 Página 21
+
+--- PAGINA 22 ---
+
+A pontuação final servirá como referência para classificação das iniciativas, mas poderá ser
+analisada em conjunto com critérios estratégicos definidos pela Comissão Julgadora.
+08.5 Avaliação estratégica
+Além da pontuação pelo ICE Score, a Comissão Julgadora poderá considerar aspectos
+estratégicos da iniciativa, como:
+● alinhamento com os objetivos institucionais do Grupo Fatecie;
+● aderência à cultura de inovação;
+● contribuição para melhoria da experiência de alunos, colaboradores ou áreas;
+● possibilidade de institucionalização;
+● potencial de uso em larga escala;
+● contribuição para redução de custos, retrabalhos ou riscos;
+● aderência às diretrizes acadêmicas, administrativas, tecnológicas ou operacionais.
+A avaliação estratégica não substitui o ICE Score, mas poderá apoiar a decisão final da Comissão
+Julgadora em situações de empate, proximidade de pontuação ou necessidade de priorização
+institucional.
+08.6 Critérios de desclassificação
+Poderão ser desclassificadas as iniciativas que:
+● violem a legislação vigente ou normas internas do Grupo Fatecie;
+● utilizem dados pessoais, dados sensíveis ou informações confidenciais de forma
+inadequada;
+● apresentem informações falsas, inconsistentes ou não comprováveis;
+● desrespeitem direitos autorais, propriedade intelectual, marcas, imagens ou conteúdos de
+terceiros;
+● contenham material ofensivo, discriminatório, inadequado ou incompatível com os valores
+institucionais;
+● não demonstrem relação com atividades institucionais do Grupo Fatecie;
+● apresentem riscos relevantes à segurança da informação, à privacidade, à imagem
+institucional ou à integridade dos dados;
+● dependam de acessos, sistemas, integrações ou bases restritas sem ciência ou
+autorização da área responsável;
+● não atendam aos requisitos mínimos definidos neste regulamento;
+● deixem de apresentar informações solicitadas pela Curadoria Técnica ou pela Comissão
+Julgadora dentro do prazo estabelecido.
+A desclassificação poderá ocorrer em qualquer etapa do programa, caso seja identificada situação
+incompatível com este regulamento.
+08.7 Decisão da Comissão Julgadora
+A decisão da Comissão Julgadora considerará a avaliação técnica, estratégica e institucional das
+iniciativas finalistas.
+Uso Interno · Versão 1.0 · Julho 2026 Página 22
+
+--- PAGINA 23 ---
+
+A Comissão poderá deliberar sobre a classificação das iniciativas, definição das premiadas,
+necessidade de ajustes, recomendação de testes adicionais ou possibilidade de encaminhamento
+para institucionalização.
+As decisões da Comissão Julgadora deverão observar os critérios previstos neste regulamento e
+serão registradas conforme fluxo definido pelo Comitê do Programa.
+Uso Interno · Versão 1.0 · Julho 2026 Página 23
+
+--- PAGINA 24 ---
+
+09. Premiação e Reconhecimento
+Ao final de cada ciclo, o Grupo Fatecie reconhecerá as iniciativas que mais contribuírem para a
+inovação institucional, considerando os critérios de avaliação definidos neste regulamento.
+A premiação tem como objetivo valorizar o protagonismo dos participantes, incentivar o
+compartilhamento de boas práticas e fortalecer a cultura de inovação, melhoria contínua e uso
+responsável da Inteligência Artificial.
+9.1 Formas de reconhecimento
+As iniciativas de maior destaque poderão receber:
+● reconhecimento institucional;
+● certificados;
+● troféus;
+● experiências de desenvolvimento;
+● divulgação interna da iniciativa;
+● premiação financeira, conforme classificação final.
+9.2 Premiação financeira
+As iniciativas classificadas nas três primeiras colocações poderão receber premiação financeira,
+conforme os valores abaixo:
+Classificação Valor da premiação
+1º lugar R$ 5.000,00
+2º lugar R$ 3.000,00
+3º lugar R$ 2.000,00
+A premiação será concedida por colocação, independentemente do número de integrantes da
+iniciativa.
+Nas iniciativas desenvolvidas em equipe, o valor correspondente à colocação será dividido em
+partes iguais entre todos os autores cadastrados.
+9.3 Definição dos premiados
+A quantidade de iniciativas premiadas será definida conforme a qualidade das soluções
+apresentadas, os critérios de avaliação do ciclo e a deliberação da Comissão Julgadora.
+A classificação como finalista não garante premiação financeira.
+Uso Interno · Versão 1.0 · Julho 2026 Página 24
+
+--- PAGINA 25 ---
+
+A Comissão Julgadora poderá recomendar menções honrosas ou reconhecimentos institucionais
+adicionais, quando identificar iniciativas relevantes que não estejam entre as três primeiras
+colocações.
+09.4 Natureza da premiação
+A participação no FAIS e eventual premiação não implicam alteração de cargo, salário, função,
+vínculo contratual ou garantia de implementação institucional da solução.
+A premiação reconhece a contribuição apresentada no ciclo vigente e não substitui políticas
+internas de remuneração, desempenho, promoção ou carreira.
+Uso Interno · Versão 1.0 · Julho 2026 Página 25
+
+--- PAGINA 26 ---
+
+10. Comissão Julgadora e Curadoria Técnica
+A avaliação das iniciativas cadastradas no FAIS – Fatecie AI Solutions será conduzida em duas
+etapas: Curadoria Técnica e Comissão Julgadora.
+A Curadoria Técnica será responsável pela análise inicial das iniciativas, verificando se elas
+atendem aos requisitos mínimos do programa. A Comissão Julgadora será responsável pela
+avaliação estratégica das iniciativas classificadas, definição dos finalistas e deliberação sobre as
+premiações.
+10.1 Curadoria Técnica
+A Curadoria Técnica será realizada por representantes das áreas de Inovação e Tecnologia,
+podendo contar com apoio de outras áreas quando necessário. Compete à Curadoria Técnica
+verificar se a iniciativa:
+● foi cadastrada corretamente;
+● apresenta informações suficientes para análise;
+● possui relação com atividades institucionais;
+● utiliza Inteligência Artificial ou tecnologia correlata;
+● apresenta evidências, protótipos, demonstrações ou descrição suficiente;
+● respeita critérios básicos de segurança, responsabilidade, confidencialidade e uso
+adequado de dados.
+A Curadoria Técnica poderá solicitar complementações ou esclarecimentos aos autores antes de
+encaminhar a iniciativa para avaliação da Comissão Julgadora.
+10.2 Comissão Julgadora
+A Comissão Julgadora será responsável por avaliar as iniciativas classificadas pela Curadoria
+Técnica, considerando os critérios previstos neste regulamento. Compete à Comissão Julgadora:
+● analisar o impacto institucional das iniciativas;
+● avaliar inovação, viabilidade, aplicabilidade e potencial de replicação;
+● definir as iniciativas finalistas;
+● deliberar sobre as iniciativas premiadas;
+● recomendar soluções com potencial de institucionalização.
+A Comissão Julgadora poderá considerar, além da pontuação técnica, aspectos estratégicos
+relacionados à aderência institucional, segurança, sustentabilidade, escalabilidade e contribuição
+para colaboradores, alunos, áreas ou processos.
+10.3 Composição da Comissão Julgadora
+A Comissão Julgadora do FAIS poderá ser composta pelas seguintes áreas:
+Área Papel principal
+Diretoria de Inovação Presidência da Comissão, condução das reuniões
+e validação da aderência à inovação.
+Uso Interno · Versão 1.0 · Julho 2026 Página 26
+
+--- PAGINA 27 ---
+
+Diretoria Administrativa Avaliação do impacto operacional, eficiência
+administrativa e redução de retrabalho.
+Diretoria Financeira Presencial e EAD Avaliação de economia de recursos, custos,
+retorno esperado e sustentabilidade financeira.
+Gerência de Gente, Cultura e Gestão Avaliação do impacto na experiência dos
+colaboradores, cultura, comunicação e
+reconhecimento.
+Diretoria de Tecnologia Avaliação de viabilidade técnica, segurança da
+informação, integrações, arquitetura e riscos
+tecnológicos.
+Diretoria Acadêmica Presencial e EAD Avaliação do impacto acadêmico, pedagógico,
+aderência ao ensino e experiência do aluno.
+Diretoria de Planejamento e Processos Avaliação do impacto nos processos,
+padronização, melhoria de fluxos e replicabilidade.
+Importante: A composição da Comissão poderá ser ajustada conforme a edição do programa, volume de iniciativas,
+natureza das soluções apresentadas e necessidades institucionais.
+10.4 Especialistas convidados
+A Comissão Julgadora poderá convidar especialistas internos ou externos para apoiar a análise
+de iniciativas específicas, conforme o tema, área impactada ou complexidade da solução.
+Poderão ser convidados representantes de áreas como Jurídico, Compliance, Controladoria,
+Marketing, Comercial, Segurança da Informação, Sucesso e Experiência do Aluno, coordenações
+de área ou especialistas técnicos.
+Os especialistas convidados poderão contribuir com pareceres, análises técnicas, recomendações
+ou esclarecimentos, sem necessariamente compor a Comissão Julgadora de forma permanente.
+10.5 Conflito de interesses
+Caso algum membro da Comissão Julgadora tenha participação direta em uma iniciativa avaliada
+ou relação que possa comprometer a imparcialidade da análise, deverá comunicar a situação à
+presidência da Comissão.
+Nesses casos, o membro poderá ser afastado da avaliação específica daquela iniciativa,
+preservando a imparcialidade e a transparência do processo.
+Uso Interno · Versão 1.0 · Julho 2026 Página 27
+
+--- PAGINA 28 ---
+
+11. Compartilhamento, Uso Institucional e Disposições
+Gerais
+As iniciativas cadastradas no FAIS – Fatecie AI Solutions poderão ser compartilhadas
+internamente pelo Grupo Fatecie, com o objetivo de estimular a troca de conhecimento, valorizar
+boas práticas e fortalecer a cultura de inovação.
+O compartilhamento das soluções não implica, automaticamente, aprovação, premiação ou
+implementação institucional. A adoção oficial de qualquer iniciativa dependerá de análise das
+áreas responsáveis, considerando viabilidade técnica, operacional, financeira, acadêmica, jurídica,
+segurança da informação e aderência aos processos institucionais.
+11.1 Compartilhamento interno das iniciativas
+As iniciativas cadastradas poderão ser divulgadas em canais internos do Grupo Fatecie, tais como
+plataforma FAIS, comunicados institucionais, apresentações, eventos, reuniões, materiais de
+reconhecimento ou outros meios definidos pelo Comitê do Programa.
+A divulgação poderá contemplar:
+● nome da iniciativa;
+● autores cadastrados;
+● área de origem;
+● problema resolvido;
+● resumo da solução;
+● benefícios esperados ou alcançados;
+● registros visuais, quando autorizados;
+● reconhecimento institucional, quando aplicável.
+O compartilhamento interno deverá respeitar informações confidenciais, dados pessoais,
+documentos restritos, direitos autorais, segurança da informação e demais normas internas
+aplicáveis.
+11.2 Uso institucional das soluções
+As soluções apresentadas no FAIS poderão ser analisadas para possível uso, adaptação,
+replicação ou institucionalização no Grupo Fatecie.
+Quando houver potencial de aplicação institucional, a iniciativa poderá ser encaminhada para
+avaliação das áreas responsáveis, conforme sua natureza e impacto.
+A implementação de uma solução poderá depender de:
+● análise técnica;
+● análise de segurança da informação;
+● validação da área impactada;
+● adequação a processos institucionais;
+● análise de custos;
+● aprovação de lideranças responsáveis;
+Uso Interno · Versão 1.0 · Julho 2026 Página 28
+
+--- PAGINA 29 ---
+
+● revisão jurídica ou de conformidade, quando aplicável;
+● definição de responsáveis pela manutenção, atualização e acompanhamento da solução.
+A participação no FAIS não garante que a solução será implementada oficialmente, ainda que seja
+bem avaliada ou premiada.
+11.3 Reconhecimento da autoria
+O Grupo Fatecie reconhece o protagonismo dos autores das iniciativas cadastradas no FAIS.
+Sempre que uma solução for divulgada, premiada, adaptada ou institucionalizada, os autores
+deverão ser reconhecidos conforme os critérios definidos pelo programa e pelas possibilidades
+institucionais de divulgação.
+Nos casos de iniciativas desenvolvidas em equipe, o reconhecimento será atribuído aos autores
+informados no cadastro da solução.
+11.4 Responsabilidade sobre informações e materiais
+Os autores são responsáveis pelas informações, evidências, imagens, vídeos, documentos,
+fluxos, resultados e demais materiais apresentados no cadastro da iniciativa.
+Não deverão ser incluídos materiais que contenham informações confidenciais, dados pessoais,
+dados sensíveis, acessos restritos, documentos internos protegidos, conteúdos de terceiros ou
+qualquer informação que não possa ser compartilhada no âmbito do programa.
+Caso seja identificada alguma inconsistência, exposição indevida ou uso inadequado de
+informação, o Comitê do Programa poderá solicitar ajustes, restringir a divulgação, remover
+materiais ou desconsiderar a iniciativa da avaliação.
+11.5 Casos omissos
+Situações não previstas neste regulamento serão analisadas pelo Comitê do Programa, podendo
+haver consulta às áreas responsáveis, à Comissão Julgadora, à Diretoria de Inovação, à Diretoria
+de Tecnologia, à Gerência de Gente, Cultura e Gestão ou a outras áreas envolvidas, conforme a
+natureza do caso.
+As decisões deverão considerar os objetivos do FAIS, os critérios de avaliação, as normas
+internas do Grupo Fatecie e os princípios de ética, transparência, segurança, inovação e
+responsabilidade institucional.
+11.6 Atualização do regulamento
+O Grupo Fatecie poderá atualizar este regulamento sempre que houver necessidade de
+adequação do programa, melhoria do processo, alteração de calendário, inclusão de novas
+etapas, atualização de critérios ou ajuste de diretrizes institucionais.
+Uso Interno · Versão 1.0 · Julho 2026 Página 29
+
+--- PAGINA 30 ---
+
+As atualizações serão comunicadas pelos canais oficiais do Grupo Fatecie e passarão a integrar
+as regras aplicáveis ao programa a partir de sua divulgação.
+11.7 Concordância com o regulamento
+A participação no FAIS implica ciência e concordância com as regras previstas neste regulamento,
+bem como com as demais políticas, normas e orientações internas aplicáveis.
+Ao cadastrar uma iniciativa, os participantes declaram que as informações apresentadas são
+verdadeiras, que possuem autorização para compartilhamento dos materiais incluídos e que a
+solução respeita as diretrizes institucionais do Grupo Fatecie.
+Uso Interno · Versão 1.0 · Julho 2026 Página 30
+
+--- PAGINA 31 ---
+
+12. Glossário
+Este glossário apresenta a definição dos principais termos técnicos utilizados neste regulamento.
+Termo Definição
+FAIS – Fatecie AI Solutions Programa institucional de inovação do Grupo Fatecie voltado ao
+desenvolvimento, cadastro, compartilhamento, avaliação e
+reconhecimento de soluções baseadas em Inteligência Artificial.
+Inteligência Artificial Tecnologia capaz de apoiar atividades como análise de informações,
+geração de conteúdos, automação de tarefas, identificação de
+padrões, apoio à tomada de decisão e melhoria de processos.
+Solução baseada em IA Iniciativa que utiliza Inteligência Artificial para resolver um problema,
+melhorar uma rotina, otimizar um processo, apoiar decisões ou gerar
+benefícios para a instituição.
+Automação Uso de tecnologia para executar tarefas de forma automática ou
+semiautomática, reduzindo esforço manual, retrabalho ou tempo de
+execução.
+Assistente virtual Solução digital que interage com usuários, responde dúvidas, orienta
+processos ou apoia atividades por meio de recursos automatizados.
+Agente de IA Solução baseada em Inteligência Artificial capaz de executar ações,
+analisar informações ou apoiar decisões com maior autonomia,
+conforme regras, objetivos ou comandos definidos.
+Dashboard inteligente Painel de informações que utiliza dados, indicadores ou recursos de
+Inteligência Artificial para apoiar análises, acompanhamento de
+resultados e tomada de decisão.
+Evidências Materiais que demonstram o funcionamento, aplicação ou resultado
+da iniciativa, como prints, vídeos, documentos, indicadores, fluxos,
+protótipos ou relatos de uso.
+Protótipo Versão inicial de uma solução, criada para demonstrar funcionamento,
+testar uma ideia ou validar uma possibilidade de aplicação.
+Curadoria Técnica
+Etapa de análise inicial das iniciativas, destinada a verificar requisitos
+mínimos, completude, aderência ao programa, evidências e uso
+adequado da tecnologia.
+Comissão Julgadora Grupo responsável pela avaliação estratégica das iniciativas
+classificadas, definição dos finalistas e deliberação sobre as
+premiações.
+ICE Score Metodologia de avaliação que considera três eixos: Impacto,
+Confiança e Facilidade. O resultado final é calculado pela média das
+notas atribuídas a esses eixos.
+Uso Interno · Versão 1.0 · Julho 2026 Página 31
+
+--- PAGINA 32 ---
+
+Impacto Grau de contribuição da solução para resultados institucionais, como
+produtividade, economia de recursos, qualidade, experiência do
+usuário, redução de erros ou melhoria de processos.
+Confiança Grau de segurança de que os resultados apresentados ou previstos
+pela iniciativa poderão ocorrer, considerando evidências, testes,
+indicadores e clareza da proposta.
+Facilidade Grau de simplicidade para implementar, manter, adaptar ou escalar a
+solução, considerando esforço, complexidade, custo, integrações e
+dependência técnica.
+Institucionalização da Processo pelo qual uma iniciativa passa a ser analisada, adaptada ou
+solução incorporada oficialmente aos processos, sistemas ou rotinas do Grupo
+Fatecie.
+Replicabilidade Potencial de uma solução ser adaptada ou utilizada por outras áreas,
+processos ou unidades do Grupo Fatecie.
+Uso responsável da IA Utilização da Inteligência Artificial de forma ética, segura, transparente
+e alinhada às normas internas, à proteção de dados, à
+confidencialidade e aos objetivos institucionais.
+Dados confidenciais Informações internas, estratégicas, acadêmicas, administrativas,
+financeiras, comerciais, pessoais ou operacionais que não podem ser
+divulgadas sem autorização.
+Finalistas Iniciativas classificadas para a etapa final de avaliação ou
+reconhecimento, conforme critérios definidos neste regulamento.
+13. Validações e Assinaturas
+Este regulamento foi elaborado, revisado e aprovado pela área de Gente, Cultura e Gestão e
+pelas lideranças responsáveis, em conformidade com as diretrizes institucionais do Grupo Fatecie.
+As validações e assinaturas correspondentes deverão constar ao final deste documento,
+formalizando a ciência e a aprovação das áreas envolvidas.
+Paranavaí, julho de 2026.
+Regulamento Interno FAIS – Fatecie AI Solutions – Versão 1.0.
+Grupo Fatecie — Gerência de Gente, Cultura e Gestão.
+Elaboração
+ELINE VELASQUES
+Uso Interno · Versão 1.0 · Julho 2026 Página 32
+
+--- PAGINA 33 ---
+
+Gerência de Gente, Cultura e Gestão.
+Co-autoria
+CAROLAINE CUSTÓDIO
+Business Partner de Gente, Cultura e Gestão
+BRUNA RAMOS
+Diagramadora, Produção de Materiais
+Aprovação institucional
+RENATO VALENÇA
+Diretor Administrativo
+JORGE VAN DAL
+Diretor de Inovação
+Uso Interno · Versão 1.0 · Julho 2026 Página 33
