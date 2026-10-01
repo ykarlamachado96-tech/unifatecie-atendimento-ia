@@ -1,58 +1,68 @@
-# Metodologia e Métricas — MVP FATECE
+# Metodologia e Métricas
 
-## Desenvolvimento orientado a testes (documento, seção 38)
+## Desenvolvimento orientado a testes
 
 ```
-Regra → teste unitário → teste integrado → Golden Dataset → teste manual
+Regra real (diretriz do setor) → prompt/ferramenta → Golden Dataset → teste manual via API/browser
 ```
 
-Toda regra de negócio implementada neste MVP passou por verificação via API antes de ser considerada pronta (ver histórico de validação: fluxo do aluno, fluxo do monitor, moderação, avaliação, dashboard e auditoria foram todos exercitados via chamadas reais, não só migrations).
+Toda regra de negócio do módulo de Estágio Obrigatório foi extraída do documento oficial de diretrizes do
+setor, nunca de suposição — mudanças de comportamento só acontecem quando um caso real de conversa expõe
+um problema (prompt ambíguo, regra confundida, dado inventado).
 
-## Versionamento de prompts (seção 39)
+## Versionamento de prompts
 
-`apps/ai/prompts.py` define `PROMPT_VERSION = "academic_router_v1"`, registrado em todo `AIExecution`. Qualquer mudança relevante no prompt deve subir a versão (`academic_router_v2`, etc.) para permitir comparar performance entre versões — nunca editar o prompt em produção sem histórico.
+`apps/ai/prompts.py` define `PROMPT_VERSION`, registrado em todo `AIExecution`. Qualquer mudança relevante
+no prompt sobe a versão (`internship_pedagogia_v1` → `v2` → `v3`, por exemplo) para permitir comparar
+comportamento entre versões — nunca se edita o prompt em produção sem esse histórico.
 
-## Golden Dataset (seção 27)
+## Golden Dataset
 
-`apps/ai/golden_dataset.py` contém os 8 cenários obrigatórios de demonstração (seção 29), cada um com o resultado esperado. Rodar com:
+`apps/ai/golden_dataset.py` contém os cenários de demonstração do módulo de Estágio Obrigatório, cada um
+com o resultado esperado (ferramenta correta, se deve ou não encaminhar para humano, se a moderação deve
+sinalizar a mensagem). Rodar com:
 
 ```bash
-docker compose run --rm backend python manage.py run_golden_dataset
+docker compose exec backend python manage.py run_golden_dataset
 ```
 
-O comando cria tickets reais, roda o harness de ponta a ponta e reporta:
+O comando cria tickets reais, roda o harness de ponta a ponta contra o provider de IA configurado e
+reporta três métricas separadas — nunca um "acerto geral":
 
-- **Tool Selection Accuracy** — a IA escolheu a ferramenta certa?
-- **Handoff Accuracy** — a decisão de encaminhar (ou não) para humano bateu com o esperado?
-- **Moderation Accuracy** — a moderação identificou corretamente linguagem inadequada de aluno e monitor?
+- **Tool Selection Accuracy** — a IA escolheu a ferramenta certa (ou corretamente decidiu não usar
+  nenhuma, por ser pergunta de regra geral)?
+- **Handoff Accuracy** — a decisão de encaminhar (ou não) para humano bateu com o esperado, incluindo
+  reconhecer corretamente um assunto fora do escopo do módulo (ex.: um programa diferente do Estágio
+  Obrigatório)?
+- **Moderation Accuracy** — a moderação identificou corretamente linguagem inadequada de aluno e
+  atendente?
 
-## Métricas separadas (seção 28)
+## Resultado mais recente
 
-O documento original pede métricas separadas em vez de um número genérico de "acerto". Neste MVP:
+Executado com o provider Claude (`claude-opus-5`) em produção:
 
-| Métrica | Onde é medida |
+| Métrica | Resultado |
 |---|---|
-| Intent/Tool Selection Accuracy | `run_golden_dataset` |
-| Handoff Accuracy | `run_golden_dataset` |
-| Moderation Accuracy | `run_golden_dataset` |
-| Resolution Rate / Human Escalation Rate | Dashboard da gerência (`taxa_resolucao_automatica`, `percentual_handoff`) |
-| Answer Correctness | Não automatizado neste MVP — depende de avaliação humana/curadoria; próximo passo natural na Fase 2 |
+| Tool Selection Accuracy | 100% (7/7) |
+| Handoff Accuracy | 100% (7/7) |
+| Moderation Accuracy | 100% (2/2) |
 
-O MVP não precisa bater as metas futuras do documento (>= 98-99%) — precisa demonstrar que **existe** metodologia para medir e evoluir. Isso está feito: os números são reais, gerados por execução real do harness, não estimados.
+Os casos cobrem: regra geral vs. situação individual do aluno, sequência obrigatória de etapas, dispensa
+com percentual/horas vindos do protocolo individual (nunca recalculado), os dois prazos de 7 dias úteis
+distintos (análise do Termo vs. correção do Relatório Final), um programa fora de escopo (Estágio de
+Ambientação), um caso de exceção que exige humano, e moderação de linguagem de aluno e atendente.
 
-## Resultado real observado nesta implementação
+## Estratégia de custo de IA
 
-Com o provider Gemini real (antes de trocarmos para o `LocalProvider` por causa da cota gratuita de 20 req/dia), o Golden Dataset mediu:
+- A IA nunca recebe o histórico completo sem necessidade nem listas grandes de registros — só o resultado
+  da ferramenta relevante.
+- Dúvidas de regra geral (ex. "quantas horas tem a etapa de Gestão Escolar?") são resolvidas via RAG sobre
+  a base de conhecimento, não por memória do modelo.
+- Dados individuais do aluno (status de etapa, dispensa deferida, relatório final) sempre vêm de uma
+  consulta real ao `AcademicConnector` — a IA nunca estima ou calcula esses números.
 
-- Tool Selection Accuracy: 67% (4/6) — os "erros" foram escolhas de ferramenta semanticamente equivalentes (ex.: `get_student_subjects` em vez de `get_student_enrollments` para "quais disciplinas estou cursando"), não alucinações.
-- Handoff Accuracy: 83% (5/6) — a falha restante foi por cota de API excedida durante o teste, não por decisão errada do modelo.
-- Moderation Accuracy: 100% (2/2) — não depende de IA, é determinística.
+## Próximo passo natural
 
-Isso é evidência real de que a arquitetura funciona; refinar os prompts e ampliar o Golden Dataset é trabalho natural de pós-MVP (Fase 2).
-
-## Estratégia de custo de IA (seção 40)
-
-- A IA nunca recebe o histórico completo sem necessidade nem listas grandes de registros — só o resultado da ferramenta relevante.
-- Consultas determinísticas (ex. "meu boleto está pago?") são resolvidas pelo backend via connector; a IA só recebe o resultado já filtrado.
-- O `GeminiProvider` tem retry automático com backoff para erros transitórios (429/503), reduzindo desperdício de tentativas malsucedidas.
-- Um `LocalProvider` (Ollama) está disponível para desenvolvimento/testes sem consumir cota de nenhuma API paga — trade-off: modelos locais pequenos têm Tool Selection Accuracy mais baixa, adequado para testar mecânica do pipeline, não qualidade de resposta.
+Ampliar o Golden Dataset conforme novos setores da Mensageria ganharem base de conhecimento própria, e
+automatizar também uma métrica de "Answer Correctness" (hoje avaliada por leitura manual da resposta
+gerada em cada caso).

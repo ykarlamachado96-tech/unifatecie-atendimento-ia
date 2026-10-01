@@ -1,38 +1,46 @@
-# Plano Futuro — Pós-MVP
+# Plano Futuro
 
-## Fase 2 (documento, seção 46)
+## Curto prazo — acoplamento com a plataforma real
 
-- Melhorar o RAG (chunking mais inteligente, mais documentos institucionais reais, reranking).
-- Aumentar o Golden Dataset além dos 8 cenários iniciais, cobrindo mais variações e casos de borda.
-- Integrações reais com os sistemas acadêmico/financeiro da FATECE (implementar `RealFateceConnector`).
-- SSO institucional.
-- Monitoramento e analytics de produção (latência, taxa de erro do provider de IA, custo por atendimento).
-- Regras configuráveis (hoje o threshold de confiança e os pesos de decaimento de score estão em constantes no código; mover para configuração editável pela gerência/administrador).
-- Editor de prompts com versionamento visual (hoje é um arquivo Python com uma constante de versão).
-- Editor de fluxos para permitir novos tipos de atendimento sem alterar código.
-- Answer Correctness automatizado (hoje depende de avaliação humana).
+A Mensageria da UniFatecie já existe e já tem seu próprio frontend, fluxo de tickets e organização por
+Tema/Setor. Este repositório não deve virar uma segunda aplicação em produção — o objetivo é acoplar o
+motor (classificação, resolução por módulo, moderação, auditoria) a essa plataforma já existente.
 
-## Fase 3 — Plataforma multi-tenant (seção 47)
+Passos concretos:
 
-```
-Tenant
-  ↓
-Configuração
-  ↓
-Prompt
-  ↓
-Knowledge Base
-  ↓
-Tools
-  ↓
-Integrações
-```
+- Definir com a equipe responsável pela Mensageria o formato de acoplamento (API própria exposta pelo
+  motor, webhook disparado pela plataforma real, ou biblioteca interna).
+- Validar o comportamento do motor com casos reais de atendimento (não só a base simulada) antes de
+  qualquer uso em produção.
+- Mapear os Temas/Setores reais da Mensageria para o formato de "módulo" usado aqui (base de conhecimento
+  + ferramentas de consulta, quando existirem dados estruturados).
 
-A arquitetura atual já isola os pontos que vão precisar variar por tenant:
+## Novos módulos
 
-- `AcademicConnector` → cada tenant pode ter seu próprio connector (ERP, planilha, API própria).
-- `AIProvider` → cada tenant pode escolher Gemini, OpenAI, ou um modelo local, sem tocar no harness.
-- `TOOL_REGISTRY` → pode ser filtrado/estendido por tenant sem alterar o orquestrador.
-- Moderação e score comportamental já são genéricos (não têm nada específico de "faculdade" no código, só nos textos de exemplo).
+Cada novo setor segue o mesmo padrão do módulo de Estágio Obrigatório:
 
-Pacotes possíveis mencionados no documento: Educação, Clínicas, Odontologia, Pet Shop, Atendimento empresarial — todos reaproveitariam o mesmo harness, moderação, auditoria e avaliação; só mudariam o connector, o prompt e as tools.
+1. Diretrizes do setor documentadas e carregadas via `ingest_knowledge_base`.
+2. Se o setor tiver dados individuais consultáveis (ex.: situação financeira, status de matrícula), expor
+   ferramentas específicas em `apps/ai/tools/` e registrá-las no `TOOL_REGISTRY`.
+3. Ajustar o prompt do Router para reconhecer o novo setor e saber quando resolver sozinho vs. encaminhar.
+4. Escrever os casos correspondentes no Golden Dataset antes de considerar o módulo pronto.
+
+Candidatos óbvios, pela frequência observada na Mensageria real: Financeiro (boletos, mensalidade), TCC
+(correção, orientador, prazos), Secretaria (documentos, matrícula).
+
+## Melhorias de plataforma
+
+- RAG com chunking mais inteligente e reranking conforme a base de conhecimento crescer.
+- Monitoramento de produção: latência, taxa de erro do provider de IA, custo por atendimento resolvido
+  automaticamente vs. encaminhado.
+- Mover constantes hoje fixas no código (limiar de confiança, pesos de moderação) para configuração
+  editável sem deploy.
+- "Answer Correctness" automatizado, hoje dependente de leitura manual do Golden Dataset.
+
+## O que a arquitetura já deixa pronto para isso
+
+- `AcademicConnector` isola toda fonte de dado — trocar por um connector real não exige tocar na IA.
+- `AIProvider` isola o modelo de IA — já validado com Claude, Gemini e Ollama sem mudar o harness.
+- `TOOL_REGISTRY` pode crescer por módulo sem alterar o orquestrador.
+- Moderação, auditoria e avaliação já são genéricas — não têm nada específico de "estágio" no código, só
+  nos prompts e nas ferramentas daquele módulo.
