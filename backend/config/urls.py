@@ -9,6 +9,7 @@ urlpatterns = [
     path("api/students/", include("apps.students.urls")),
     path("api/support/", include("apps.support.urls")),
     path("api/evaluations/", include("apps.evaluations.urls")),
+    path("api/ai/", include("apps.ai.urls")),
 ]
 
 if settings.DEBUG:

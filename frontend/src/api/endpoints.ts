@@ -1,7 +1,9 @@
 import { api } from "./client";
 import type {
   AcademicSummary,
+  AIProviderCredential,
   Evaluation,
+  KnowledgeSource,
   Message,
   Ticket,
   TicketDetail,
@@ -72,4 +74,65 @@ export async function getEvaluation(ticketId: number) {
 export async function submitEvaluation(ticketId: number, stars: number, comment: string) {
   const { data } = await api.post<Evaluation>(`/api/evaluations/${ticketId}/`, { stars, comment });
   return data;
+}
+
+export async function listProviders() {
+  const { data } = await api.get<AIProviderCredential[]>("/api/ai/providers/");
+  return data;
+}
+
+export async function updateProvider(id: number, payload: Partial<AIProviderCredential> & { api_key?: string }) {
+  const { data } = await api.patch<AIProviderCredential>(`/api/ai/providers/${id}/`, payload);
+  return data;
+}
+
+export async function listKnowledgeSources() {
+  const { data } = await api.get<KnowledgeSource[]>("/api/ai/knowledge-sources/");
+  return data;
+}
+
+export async function createKnowledgeSource(payload: {
+  title: string;
+  category: string;
+  file?: File | null;
+  raw_text?: string;
+}) {
+  const form = new FormData();
+  form.append("title", payload.title);
+  form.append("category", payload.category);
+  if (payload.file) form.append("file", payload.file);
+  if (payload.raw_text) form.append("raw_text", payload.raw_text);
+  const { data } = await api.post<KnowledgeSource>("/api/ai/knowledge-sources/", form, {
+    headers: { "Content-Type": "multipart/form-data" },
+  });
+  return data;
+}
+
+export async function processKnowledgeSource(id: number) {
+  const { data } = await api.post<KnowledgeSource>(`/api/ai/knowledge-sources/${id}/process/`);
+  return data;
+}
+
+export async function listSandboxTickets() {
+  const { data } = await api.get<Ticket[]>("/api/ai/sandbox/tickets/");
+  return data;
+}
+
+export async function createSandboxTicket() {
+  const { data } = await api.post<Ticket>("/api/ai/sandbox/tickets/");
+  return data;
+}
+
+export async function getSandboxTicket(ticketId: number) {
+  const { data } = await api.get<TicketDetail>(`/api/ai/sandbox/tickets/${ticketId}/`);
+  return data;
+}
+
+export async function sendSandboxMessage(ticketId: number, content: string) {
+  const { data } = await api.post<Message>(`/api/ai/sandbox/tickets/${ticketId}/messages/`, { content });
+  return data;
+}
+
+export async function resetSandbox() {
+  await api.post("/api/ai/sandbox/reset/");
 }

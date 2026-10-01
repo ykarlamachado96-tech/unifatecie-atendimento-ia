@@ -132,6 +132,37 @@ export interface Message {
   created_at: string;
 }
 
+export type AIProviderName = "openai" | "claude" | "gemini" | "ollama";
+
+export interface AIProviderCredential {
+  id: number;
+  provider: AIProviderName;
+  api_key_display: string;
+  base_url: string;
+  model_name: string;
+  is_active: boolean;
+  use_for_embeddings: boolean;
+  temperature: number | null;
+  max_tokens: number | null;
+  updated_at: string;
+}
+
+export type KnowledgeSourceStatus = "PENDING" | "PROCESSED" | "ERROR";
+
+export interface KnowledgeSource {
+  id: number;
+  title: string;
+  category: string;
+  file: string | null;
+  raw_text: string;
+  document: number | null;
+  document_title: string | null;
+  status: KnowledgeSourceStatus;
+  error_message: string;
+  processed_at: string | null;
+  created_at: string;
+}
+
 export type EvaluationStatus = "PENDING" | "SUBMITTED" | "AUTO_TIMEOUT";
 
 export interface Evaluation {

@@ -3,12 +3,16 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { useAuthStore } from "./auth/store";
 import { Layout } from "./components/Layout";
 import { LoginPage } from "./pages/LoginPage";
+import { KnowledgeSourcesPage } from "./pages/admin/KnowledgeSourcesPage";
+import { ProvidersPage } from "./pages/admin/ProvidersPage";
+import { SandboxChatPage } from "./pages/admin/SandboxChatPage";
+import { SandboxPage } from "./pages/admin/SandboxPage";
 import { QueuePage } from "./pages/monitor/QueuePage";
 import { MonitorTicketDetailPage } from "./pages/monitor/TicketDetailPage";
 import { StudentTicketsPage } from "./pages/student/StudentTicketsPage";
 import { TicketChatPage } from "./pages/student/TicketChatPage";
 
-const SPA_ROLES = ["STUDENT", "MONITOR"];
+const SPA_ROLES = ["STUDENT", "MONITOR", "ADMIN"];
 
 function RequireRole({ roles, children }: { roles: string[]; children: React.ReactNode }) {
   const user = useAuthStore((s) => s.user);
@@ -59,6 +63,39 @@ export function AppRouter() {
             </RequireRole>
           }
         />
+
+        <Route
+          path="/admin/configuracao"
+          element={
+            <RequireRole roles={["ADMIN"]}>
+              <ProvidersPage />
+            </RequireRole>
+          }
+        />
+        <Route
+          path="/admin/base-de-conhecimento"
+          element={
+            <RequireRole roles={["ADMIN"]}>
+              <KnowledgeSourcesPage />
+            </RequireRole>
+          }
+        />
+        <Route
+          path="/admin/simulacao"
+          element={
+            <RequireRole roles={["ADMIN"]}>
+              <SandboxPage />
+            </RequireRole>
+          }
+        />
+        <Route
+          path="/admin/simulacao/:ticketId"
+          element={
+            <RequireRole roles={["ADMIN"]}>
+              <SandboxChatPage />
+            </RequireRole>
+          }
+        />
       </Route>
 
       <Route path="/" element={<Navigate to={homeFor(user?.role)} replace />} />
@@ -73,6 +110,8 @@ function homeFor(role?: string) {
       return "/aluno";
     case "MONITOR":
       return "/monitor/fila";
+    case "ADMIN":
+      return "/admin/configuracao";
     default:
       return "/login";
   }

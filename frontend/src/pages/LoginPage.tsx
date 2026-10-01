@@ -8,6 +8,7 @@ import { GraduationCapIcon } from "../components/icons";
 const HOME_BY_ROLE: Record<string, string> = {
   STUDENT: "/aluno",
   MONITOR: "/monitor/fila",
+  ADMIN: "/admin/configuracao",
 };
 
 function PersonIcon() {

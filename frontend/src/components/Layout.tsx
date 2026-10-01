@@ -6,6 +6,11 @@ import { GraduationCapIcon } from "./icons";
 const NAV_BY_ROLE: Record<string, { to: string; label: string }[]> = {
   STUDENT: [{ to: "/aluno", label: "Meus atendimentos" }],
   MONITOR: [{ to: "/monitor/fila", label: "Fila de atendimentos" }],
+  ADMIN: [
+    { to: "/admin/configuracao", label: "Configuração de IA" },
+    { to: "/admin/base-de-conhecimento", label: "Base de Conhecimento" },
+    { to: "/admin/simulacao", label: "Simular Atendimento" },
+  ],
 };
 
 const ROLE_LABEL: Record<string, string> = {
