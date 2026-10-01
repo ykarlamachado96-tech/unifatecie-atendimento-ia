@@ -7,7 +7,8 @@ from google.genai import types
 
 from .base import AIProvider, ProviderError
 
-EMBEDDING_MODEL = "text-embedding-004"
+# text-embedding-004 foi desativado em jan/2026; gemini-embedding-001 é o modelo estável atual.
+EMBEDDING_MODEL = "gemini-embedding-001"
 
 RETRYABLE_MARKERS = ("503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED")
 RETRY_BACKOFF_SECONDS = (3, 6)  # tentativas extras além da primeira
@@ -111,7 +112,12 @@ class GeminiProvider(AIProvider):
         client = self._get_client()
 
         def call():
-            result = client.models.embed_content(model=EMBEDDING_MODEL, contents=text)
+            # gemini-embedding-001 produz vetores de até 3072 dimensões por padrão; truncamos
+            # para bater com o VectorField(768) usado no pgvector (EMBEDDING_DIM em apps/ai/models.py).
+            result = client.models.embed_content(
+                model=EMBEDDING_MODEL, contents=text,
+                config=types.EmbedContentConfig(output_dimensionality=768),
+            )
             return result.embeddings[0].values
 
         return _call_with_retry(call)

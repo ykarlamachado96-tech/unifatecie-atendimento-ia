@@ -86,7 +86,10 @@ class AIProviderCredential(models.Model):
     api_key = models.CharField(max_length=300, blank=True)
     base_url = models.CharField(max_length=300, blank=True)
     model_name = models.CharField(max_length=100, blank=True)
-    is_active = models.BooleanField(default=False)
+    is_active = models.BooleanField(default=False, help_text="Usado para classificar e responder o aluno.")
+    use_for_embeddings = models.BooleanField(
+        default=False, help_text="Usado só para gerar embeddings do RAG (busca na base de conhecimento)."
+    )
     temperature = models.FloatField(null=True, blank=True)
     max_tokens = models.PositiveIntegerField(null=True, blank=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -94,6 +97,8 @@ class AIProviderCredential(models.Model):
     def save(self, *args, **kwargs):
         if self.is_active:
             AIProviderCredential.objects.exclude(pk=self.pk).update(is_active=False)
+        if self.use_for_embeddings:
+            AIProviderCredential.objects.exclude(pk=self.pk).update(use_for_embeddings=False)
         super().save(*args, **kwargs)
 
     def __str__(self):

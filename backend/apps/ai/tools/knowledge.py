@@ -1,6 +1,6 @@
 from pgvector.django import L2Distance
 
-from apps.ai.providers import ProviderError, get_provider
+from apps.ai.providers import ProviderError, get_embedding_provider
 
 
 def search_knowledge_base(student, query=None, **kwargs):
@@ -10,7 +10,7 @@ def search_knowledge_base(student, query=None, **kwargs):
     from apps.ai.models import KnowledgeChunk
 
     try:
-        provider = get_provider()
+        provider = get_embedding_provider()
         query_embedding = provider.embed(query)
         qs = (
             KnowledgeChunk.objects.exclude(embedding__isnull=True)

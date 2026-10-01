@@ -3,7 +3,7 @@ import re
 from django.utils import timezone
 
 from .models import KnowledgeChunk, KnowledgeDocument, KnowledgeSource
-from .providers import ProviderError, get_provider
+from .providers import ProviderError, get_embedding_provider
 
 
 def split_into_sections(markdown_text: str) -> list[str]:
@@ -24,7 +24,7 @@ def ingest_text(*, title: str, category: str, text: str, embed: bool = True) -> 
     document, _ = KnowledgeDocument.objects.update_or_create(title=title, defaults={"category": category})
     document.chunks.all().delete()
 
-    provider = get_provider() if embed else None
+    provider = get_embedding_provider() if embed else None
     embedded_count = 0
     chunks = []
     for section in sections:

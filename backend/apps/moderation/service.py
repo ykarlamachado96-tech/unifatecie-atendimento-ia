@@ -21,9 +21,10 @@ PROFANITY_TERMS = [
     r"\bfoda\b", r"\bfdp\b", r"\bputa\b",
 ]
 INSULT_TERMS = [
-    r"\bidiota\b", r"\bimbecil\b", r"\bburro\b", r"\bburra\b", r"\bin[uú]til\b",
-    r"\bretardado\b", r"\bretardada\b", r"\bvagabundo\b", r"\bvagabunda\b",
-    r"\botário\b", r"\botaria\b", r"\bin[cç]ompetente\b",
+    r"\bidiotas?\b", r"\bimbecis?\b", r"\bimbecil\b", r"\bburros?\b", r"\bburras?\b",
+    r"\bin[uú]til\b", r"\bin[uú]teis\b", r"\bretardados?\b", r"\bretardadas?\b",
+    r"\bvagabundos?\b", r"\bvagabundas?\b", r"\bot[áa]rios?\b", r"\bot[áa]rias?\b",
+    r"\bin[cç]ompetentes?\b",
 ]
 THREAT_TERMS = [
     r"\bvou te matar\b", r"\bvou (te )?bater\b", r"\bcuidado com voc[eê]\b",

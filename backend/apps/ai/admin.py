@@ -57,8 +57,8 @@ class AIProviderCredentialForm(forms.ModelForm):
 @admin.register(AIProviderCredential)
 class AIProviderCredentialAdmin(admin.ModelAdmin):
     form = AIProviderCredentialForm
-    list_display = ("provider", "masked_api_key", "model_name", "is_active", "updated_at")
-    list_editable = ("is_active",)
+    list_display = ("provider", "masked_api_key", "model_name", "is_active", "use_for_embeddings", "updated_at")
+    list_editable = ("is_active", "use_for_embeddings")
 
     @admin.display(description="Chave de API")
     def masked_api_key(self, obj):
