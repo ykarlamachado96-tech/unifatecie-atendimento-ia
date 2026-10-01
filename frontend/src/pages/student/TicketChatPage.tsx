@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { closeTicket, getEvaluation, getTicket, sendMessage, submitEvaluation } from "../../api/endpoints";
 import { ChatWindow } from "../../components/ChatWindow";
 import { EvaluationModal } from "../../components/EvaluationModal";
+import { MessageComposer } from "../../components/MessageComposer";
 import { StatusBadge } from "../../components/StatusBadge";
 
 const HUMAN_STATES = ["WAITING_HUMAN", "HUMAN_ASSIGNED", "HUMAN_PROCESSING"];
@@ -59,10 +60,6 @@ export function TicketChatPage() {
   const isClosed = ticket.status === "CLOSED";
   const isHuman = HUMAN_STATES.includes(ticket.status);
 
-  function handleSend() {
-    if (text.trim() && !sendMutation.isPending) sendMutation.mutate();
-  }
-
   return (
     <div className="ticket-chat-page">
       <button className="back-link" onClick={() => navigate("/aluno")}>
@@ -90,23 +87,13 @@ export function TicketChatPage() {
         <ChatWindow messages={ticket.messages} viewerType="STUDENT" />
 
         {!isClosed && (
-          <div className="chat-input">
-            <textarea
-              rows={1}
-              placeholder="Digite sua dúvida sobre o estágio..."
-              value={text}
-              onChange={(e) => setText(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" && !e.shiftKey) {
-                  e.preventDefault();
-                  handleSend();
-                }
-              }}
-            />
-            <button className="btn" onClick={handleSend} disabled={!text.trim() || sendMutation.isPending}>
-              Enviar
-            </button>
-          </div>
+          <MessageComposer
+            value={text}
+            onChange={setText}
+            onSend={() => sendMutation.mutate()}
+            sending={sendMutation.isPending}
+            placeholder="Digite sua dúvida sobre o estágio..."
+          />
         )}
 
         {(canClose || (isClosed && evaluation)) && (

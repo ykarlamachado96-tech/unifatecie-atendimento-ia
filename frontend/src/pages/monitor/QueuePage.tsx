@@ -14,23 +14,29 @@ export function QueuePage() {
 
   return (
     <div>
+      <span className="eyebrow">Atendente</span>
       <h1>Fila de atendimentos</h1>
-      <div className="card">
+
+      <div className="card" style={{ marginTop: 16 }}>
         {isLoading && <p>Carregando...</p>}
-        {!isLoading && (!tickets || tickets.length === 0) && <p>Nenhum atendimento aguardando monitor.</p>}
-        <ul className="ticket-list">
-          {tickets?.map((t) => (
-            <li key={t.id} onClick={() => navigate(`/monitor/atendimento/${t.id}`)} style={{ cursor: "pointer" }}>
-              <div>
-                <strong><span className="mono">#{t.id}</span> · {t.student_name}</strong>
-                <div style={{ fontSize: 12, color: "var(--text-muted)" }}>
-                  <span className="mono">{t.student_ra}</span> · {t.intent || "intenção não identificada"}
+        {!isLoading && (!tickets || tickets.length === 0) && (
+          <p className="empty">Nenhum atendimento aguardando atendente no momento.</p>
+        )}
+        {!isLoading && tickets && tickets.length > 0 && (
+          <ul className="ticket-list">
+            {tickets.map((t) => (
+              <li key={t.id} onClick={() => navigate(`/monitor/atendimento/${t.id}`)} style={{ cursor: "pointer" }}>
+                <div>
+                  <strong><span className="mono">#{t.id}</span> · {t.student_name}</strong>
+                  <div style={{ fontSize: 12, color: "var(--text-muted)" }}>
+                    <span className="mono">{t.student_ra}</span> · {t.intent || "intenção não identificada"}
+                  </div>
                 </div>
-              </div>
-              <StatusBadge status={t.status} />
-            </li>
-          ))}
-        </ul>
+                <StatusBadge status={t.status} />
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );

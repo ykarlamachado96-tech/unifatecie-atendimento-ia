@@ -90,6 +90,9 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
+
 # A base de demonstração tem ~10 mil alunos, cada um com senha própria (o RA).
 # Um hasher mais rápido evita minutos de seed sem deixar de hashear a senha.
 PASSWORD_HASHERS = [

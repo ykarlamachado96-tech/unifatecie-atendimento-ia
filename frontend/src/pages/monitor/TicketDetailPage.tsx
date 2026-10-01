@@ -6,6 +6,7 @@ import { assignTicket, closeTicket, getTicket, sendMessage, transferTicket } fro
 import { useAuthStore } from "../../auth/store";
 import { ChatWindow } from "../../components/ChatWindow";
 import { HandoffContextPanel } from "../../components/HandoffContextPanel";
+import { MessageComposer } from "../../components/MessageComposer";
 import { StatusBadge } from "../../components/StatusBadge";
 
 export function MonitorTicketDetailPage() {
@@ -47,23 +48,24 @@ export function MonitorTicketDetailPage() {
   const isUnassigned = ticket.status === "WAITING_HUMAN" && !ticket.assigned_monitor;
 
   return (
-    <div>
-      <button className="btn secondary" onClick={() => navigate("/monitor/fila")} style={{ marginBottom: 16 }}>
-        ← Voltar à fila
+    <div className="ticket-chat-page">
+      <button className="back-link" onClick={() => navigate("/monitor/fila")}>
+        ← Fila de atendimentos
       </button>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
-        <h1>
-          Atendimento <span className="mono">#{ticket.id}</span> · {ticket.student_name}{" "}
-          <span className="mono" style={{ fontSize: "0.7em", color: "var(--text-muted)" }}>
-            {ticket.student_ra}
-          </span>
-        </h1>
+
+      <div className="ticket-chat-header">
+        <div>
+          <span className="eyebrow">{ticket.student_name} · {ticket.student_ra}</span>
+          <h1>
+            Atendimento <span className="mono">#{ticket.id}</span>
+          </h1>
+        </div>
         <StatusBadge status={ticket.status} />
       </div>
 
       <HandoffContextPanel context={ticket.handoff_context} />
 
-      <div className="card">
+      <div className="card chat-card">
         <ChatWindow messages={ticket.messages} viewerType="MONITOR" />
 
         {isUnassigned && (
@@ -74,18 +76,14 @@ export function MonitorTicketDetailPage() {
 
         {isMine && ticket.status !== "CLOSED" && (
           <>
-            <div className="chat-input">
-              <input
-                placeholder="Responder ao aluno..."
-                value={text}
-                onChange={(e) => setText(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && text.trim() && sendMutation.mutate()}
-              />
-              <button className="btn" onClick={() => sendMutation.mutate()} disabled={!text.trim() || sendMutation.isPending}>
-                Enviar
-              </button>
-            </div>
-            <div style={{ display: "flex", gap: 8, marginTop: 10 }}>
+            <MessageComposer
+              value={text}
+              onChange={setText}
+              onSend={() => sendMutation.mutate()}
+              sending={sendMutation.isPending}
+              placeholder="Responder ao aluno..."
+            />
+            <div className="chat-actions">
               <button className="btn secondary" onClick={() => transferMutation.mutate()}>
                 Transferir para a fila
               </button>

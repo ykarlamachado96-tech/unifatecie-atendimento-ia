@@ -25,26 +25,31 @@ class ClaudeProvider(AIProvider):
 
     name = "claude"
 
-    def __init__(self):
-        self.model_name = settings.CLAUDE_MODEL
+    def __init__(self, *, api_key=None, model_name=None, base_url=None, temperature=None, max_tokens=None):
+        self.model_name = model_name or settings.CLAUDE_MODEL
+        self.temperature = temperature
+        self.max_tokens = max_tokens or 1024
+        self._api_key = api_key or settings.ANTHROPIC_API_KEY
         self._client = None
 
     def _get_client(self) -> anthropic.Anthropic:
         if self._client is None:
-            if not settings.ANTHROPIC_API_KEY:
+            if not self._api_key:
                 raise ProviderError("ANTHROPIC_API_KEY não configurada.")
-            self._client = anthropic.Anthropic(api_key=settings.ANTHROPIC_API_KEY)
+            self._client = anthropic.Anthropic(api_key=self._api_key)
         return self._client
 
-    def _create(self, *, system, user_content, schema=None, max_tokens=1024):
+    def _create(self, *, system, user_content, schema=None, max_tokens=None):
         client = self._get_client()
         kwargs = {}
         if schema is not None:
             kwargs["output_config"] = {"format": {"type": "json_schema", "schema": schema}}
+        if self.temperature is not None:
+            kwargs["temperature"] = self.temperature
         try:
             response = client.messages.create(
                 model=self.model_name,
-                max_tokens=max_tokens,
+                max_tokens=max_tokens or self.max_tokens,
                 system=system,
                 messages=[{"role": "user", "content": user_content}],
                 **kwargs,

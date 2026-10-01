@@ -17,6 +17,7 @@ db.sqlite3
 # Django
 backend/staticfiles/
 backend/media/
+media/
 
 # Node / frontend
 node_modules/

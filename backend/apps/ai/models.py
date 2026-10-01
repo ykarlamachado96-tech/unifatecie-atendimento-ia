@@ -70,3 +70,55 @@ class KnowledgeChunk(models.Model):
 
     def __str__(self):
         return f"{self.document.title} [{self.pk}]"
+
+
+class AIProviderCredential(models.Model):
+    """Credencial de provider de IA configurável pela aplicação (Django Admin), com fallback
+    para as variáveis de ambiente quando nenhuma credencial estiver marcada como ativa."""
+
+    class Provider(models.TextChoices):
+        OPENAI = "openai", "ChatGPT (OpenAI)"
+        CLAUDE = "claude", "Claude (Anthropic)"
+        GEMINI = "gemini", "Gemini (Google)"
+        OLLAMA = "ollama", "Ollama (local)"
+
+    provider = models.CharField(max_length=20, choices=Provider.choices, unique=True)
+    api_key = models.CharField(max_length=300, blank=True)
+    base_url = models.CharField(max_length=300, blank=True)
+    model_name = models.CharField(max_length=100, blank=True)
+    is_active = models.BooleanField(default=False)
+    temperature = models.FloatField(null=True, blank=True)
+    max_tokens = models.PositiveIntegerField(null=True, blank=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def save(self, *args, **kwargs):
+        if self.is_active:
+            AIProviderCredential.objects.exclude(pk=self.pk).update(is_active=False)
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return f"{self.get_provider_display()} ({'ativo' if self.is_active else 'inativo'})"
+
+
+class KnowledgeSource(models.Model):
+    """Cadastro de uma fonte de conhecimento (upload ou texto colado) a ser processada e
+    carregada em KnowledgeDocument/KnowledgeChunk — a "alimentação" da base de RAG pelo Admin,
+    sem precisar de um comando de terminal."""
+
+    class Status(models.TextChoices):
+        PENDING = "PENDING", "Aguardando processamento"
+        PROCESSED = "PROCESSED", "Processado"
+        ERROR = "ERROR", "Erro no processamento"
+
+    title = models.CharField(max_length=200)
+    category = models.CharField(max_length=30, choices=KnowledgeDocument.Category.choices)
+    file = models.FileField(upload_to="knowledge_sources/", blank=True, null=True)
+    raw_text = models.TextField(blank=True, help_text="Alternativa a enviar um arquivo: cole o texto aqui.")
+    document = models.ForeignKey(KnowledgeDocument, null=True, blank=True, on_delete=models.SET_NULL)
+    status = models.CharField(max_length=20, choices=Status.choices, default=Status.PENDING)
+    error_message = models.CharField(max_length=500, blank=True)
+    processed_at = models.DateTimeField(null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.title} ({self.status})"

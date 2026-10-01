@@ -175,6 +175,13 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ticket-list li > div:first-child {
+  min-width: 0;
+  flex: 1;
 }
 
 .ticket-list li:last-child {
@@ -488,6 +495,7 @@ button {
   flex: 1;
 }
 
+.empty,
 .summary-list .empty {
   color: var(--text-muted);
   font-size: 13px;

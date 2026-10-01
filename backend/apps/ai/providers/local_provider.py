@@ -23,14 +23,23 @@ class LocalProvider(AIProvider):
 
     name = "local"
 
-    def __init__(self):
-        self.model_name = settings.OLLAMA_MODEL
-        self.base_url = settings.OLLAMA_BASE_URL
+    def __init__(self, *, api_key=None, model_name=None, base_url=None, temperature=None, max_tokens=None):
+        self.model_name = model_name or settings.OLLAMA_MODEL
+        self.base_url = base_url or settings.OLLAMA_BASE_URL
+        self.temperature = temperature
+        self.max_tokens = max_tokens
 
     def _generate(self, prompt: str, json_mode: bool = False) -> str:
         payload = {"model": self.model_name, "prompt": prompt, "stream": False}
         if json_mode:
             payload["format"] = "json"
+        options = {}
+        if self.temperature is not None:
+            options["temperature"] = self.temperature
+        if self.max_tokens is not None:
+            options["num_predict"] = self.max_tokens
+        if options:
+            payload["options"] = options
         try:
             resp = requests.post(f"{self.base_url}/api/generate", json=payload, timeout=180)
             resp.raise_for_status()

@@ -37,15 +37,18 @@ def _call_with_retry(func):
 class GeminiProvider(AIProvider):
     name = "gemini"
 
-    def __init__(self):
-        self.model_name = settings.GEMINI_MODEL
+    def __init__(self, *, api_key=None, model_name=None, base_url=None, temperature=None, max_tokens=None):
+        self.model_name = model_name or settings.GEMINI_MODEL
+        self.temperature = temperature
+        self.max_tokens = max_tokens
+        self._api_key = api_key or settings.GEMINI_API_KEY
         self._client = None
 
     def _get_client(self) -> genai.Client:
         if self._client is None:
-            if not settings.GEMINI_API_KEY or settings.GEMINI_API_KEY == "changeme":
+            if not self._api_key or self._api_key == "changeme":
                 raise ProviderError("GEMINI_API_KEY não configurada.")
-            self._client = genai.Client(api_key=settings.GEMINI_API_KEY)
+            self._client = genai.Client(api_key=self._api_key)
         return self._client
 
     def _generate_json(self, prompt: str) -> dict:
@@ -55,7 +58,11 @@ class GeminiProvider(AIProvider):
             response = client.models.generate_content(
                 model=self.model_name,
                 contents=prompt,
-                config=types.GenerateContentConfig(response_mime_type="application/json"),
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    temperature=self.temperature,
+                    max_output_tokens=self.max_tokens,
+                ),
             )
             return json.loads(response.text)
 
@@ -89,7 +96,13 @@ class GeminiProvider(AIProvider):
         )
 
         def call():
-            response = client.models.generate_content(model=self.model_name, contents=prompt)
+            response = client.models.generate_content(
+                model=self.model_name,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=self.temperature, max_output_tokens=self.max_tokens,
+                ),
+            )
             return response.text.strip()
 
         return _call_with_retry(call)
