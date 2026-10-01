@@ -74,9 +74,11 @@ docker compose exec backend python -m pytest
   resultado — tudo rastreável por atendimento.
 - **Versionamento de prompt** (`PROMPT_VERSION`): nenhuma mudança de comportamento é feita sem registro de
   qual versão respondeu o quê.
-- **Painel de configuração de IA** (Django Admin): cadastro de credencial por provider (ChatGPT, Claude,
-  Gemini, Ollama), chave mascarada na listagem, e cadastro de novas fontes de conhecimento (upload ou
-  texto colado) com processamento em um clique — sem precisar de terminal.
+- **Painel de configuração de IA** (telas próprias do sistema, papel `ADMIN`, além do Django Admin):
+  cadastro de credencial por provider (ChatGPT, Claude, Gemini, Ollama) com chave mascarada, cadastro de
+  fontes de conhecimento (upload ou texto colado) com processamento em um clique, e uma **simulação de
+  atendimento** que roda o motor real (moderação, classificação, ferramentas, handoff) num aluno isolado
+  — nunca toca nos alunos de demonstração.
 
 ## Stack
 
@@ -146,7 +148,7 @@ Todas sobre uma base simulada (~10.000 alunos), nunca dados reais.
 | Aluno | `FTC900003` | `FTC900003` | Relatório final enviado, aguardando correção |
 | Aluno | `FTC900004` | `FTC900004` | Ainda não elegível (fora do período) |
 | Atendente | `yanka.machado` | `demo123` | Fila de atendimentos |
-| Administrador | `admin.master` | `demo123` | Django Admin (`/admin/`) |
+| Administrador | `admin.master` | `demo123` | Configuração de IA, Base de Conhecimento, Simulação (`/admin/configuracao`) |
 
 ## Roadmap
 
