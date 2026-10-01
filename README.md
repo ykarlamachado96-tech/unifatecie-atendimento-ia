@@ -38,7 +38,8 @@ final — evitam que JSON interno vaze para o aluno e mantêm cada responsabilid
 
 As diretrizes reais do setor (elegibilidade, carga horária por etapa, fluxo de Termo de Compromisso,
 dispensa por atividade profissional, convalidação de estágio não obrigatório, Relatório Final e prazos)
-foram carregadas como base vetorial (`pgvector`) e como regras de domínio no modelo de dados. A IA nunca
+foram carregadas como base vetorial (`pgvector`) com embedding real (Gemini, configurável no Admin
+independente do provider de decisão/resposta) e como regras de domínio no modelo de dados. A IA nunca
 calcula percentuais ou horas restantes por conta própria — todo dado individual do aluno vem de uma
 consulta real ao sistema.
 
@@ -57,6 +58,14 @@ automaticamente a cada mudança de prompt:
 docker compose run --rm backend python manage.py run_golden_dataset
 ```
 
+Além do Golden Dataset (comportamento real da IA contra a API), há uma suíte de testes automatizados
+(pytest) cobrindo moderação, as redes de segurança do harness, a lógica de status do estágio, a regra das
+24h e isolamento de permissão entre aluno e atendente:
+
+```bash
+docker compose exec backend python -m pytest
+```
+
 ## Governança
 
 - **Moderação de linguagem** aplicada a aluno e atendente — mensagem mascarada, ocorrência registrada,
@@ -65,6 +74,9 @@ docker compose run --rm backend python manage.py run_golden_dataset
   resultado — tudo rastreável por atendimento.
 - **Versionamento de prompt** (`PROMPT_VERSION`): nenhuma mudança de comportamento é feita sem registro de
   qual versão respondeu o quê.
+- **Painel de configuração de IA** (Django Admin): cadastro de credencial por provider (ChatGPT, Claude,
+  Gemini, Ollama), chave mascarada na listagem, e cadastro de novas fontes de conhecimento (upload ou
+  texto colado) com processamento em um clique — sem precisar de terminal.
 
 ## Stack
 
